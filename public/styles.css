@@ -19,6 +19,8 @@
   --font: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
+/* Make the `hidden` attribute win over component display rules (overlay, chat panel) */
+[hidden] { display: none !important; }
 body { font-family: var(--font); background: var(--bg); color: var(--ink); min-height: 100vh; -webkit-font-smoothing: antialiased; }
 
 /* ---------------- Top bar ---------------- */
