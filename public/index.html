@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>American Express — Account Home</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <!-- Top navigation (authentic Amex: white bar, blue boxed logo) -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <span class="brand-logo">American Express</span>
+        <span class="brand-poc">POC</span>
+      </div>
+      <nav class="topnav">
+        <a class="active" data-section="account">Home</a>
+        <a data-section="rewards">Rewards</a>
+        <a data-section="offers">Offers</a>
+        <a data-section="payments">Payments</a>
+        <a data-section="account">Account Services</a>
+      </nav>
+      <div class="member">
+        <span class="member-greet" id="topGreet">Welcome</span>
+        <span class="member-avatar" id="memberAvatar">J</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="greeting">
+      <h1 id="heroGreeting">Welcome back.</h1>
+      <p>Here's your account at a glance.</p>
+    </div>
+
+    <section class="grid">
+      <!-- Primary card + balances -->
+      <article class="panel card-panel">
+        <div class="amex-card">
+          <div class="amex-card-top">
+            <span class="amex-card-brand">American Express</span>
+            <span class="amex-card-tier">PLATINUM</span>
+          </div>
+          <div class="amex-card-chip"></div>
+          <div class="amex-card-number">•••• •••••• •1009</div>
+          <div class="amex-card-name" id="cardName">JOHN A. MEMBER</div>
+        </div>
+        <div class="balance">
+          <div class="balance-row"><span>Current balance</span><strong>$2,384.51</strong></div>
+          <div class="balance-row muted"><span>Available credit</span><span>$12,615.49</span></div>
+          <div class="balance-row muted"><span>Minimum due</span><span>$71.54 by Jun 22, 2026</span></div>
+        </div>
+        <button class="btn-primary" data-section="payments">Make a Payment</button>
+      </article>
+
+      <!-- FICO + rewards -->
+      <article class="panel">
+        <div class="panel-head"><h2>FICO® Score</h2><span class="panel-sub">Experian · updated Jun 1</span></div>
+        <div class="fico-wrap">
+          <div class="fico-gauge" id="ficoGauge"></div>
+          <div class="fico-meta">
+            <div class="fico-band" id="ficoBand">Very Good</div>
+            <div class="fico-delta" id="ficoDelta">▲ 9 pts since last month</div>
+          </div>
+        </div>
+        <div class="rewards-line">
+          <span>Membership Rewards® points</span>
+          <strong>148,920</strong>
+        </div>
+      </article>
+    </section>
+
+    <!-- Deposit accounts -->
+    <section class="accounts">
+      <article class="acct-card">
+        <img src="/img/checking.png" alt="American Express Rewards Checking" />
+        <div class="acct-meta">
+          <div class="acct-name">Rewards Checking</div>
+          <div class="acct-sub">•••• 4417</div>
+        </div>
+      </article>
+      <article class="acct-card">
+        <img src="/img/savings.png" alt="American Express High Yield Savings" />
+        <div class="acct-meta">
+          <div class="acct-name">High Yield Savings</div>
+          <div class="acct-sub">•••• 9930</div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Quick actions -->
+    <section class="panel tiles">
+      <div class="panel-head"><h2>Quick actions</h2></div>
+      <div class="tile-grid">
+        <button class="tile" data-section="statements"><span class="tile-ico">▤</span>Statements &amp; Activity</button>
+        <button class="tile" data-section="offers"><span class="tile-ico">✦</span>Amex Offers</button>
+        <button class="tile" data-section="rewards"><span class="tile-ico">★</span>Membership Rewards</button>
+        <button class="tile" data-section="disputes"><span class="tile-ico">⚑</span>Dispute a Charge</button>
+        <button class="tile" data-section="payments"><span class="tile-ico">$</span>Make a Payment</button>
+        <button class="tile" data-section="third_party_permissions"><span class="tile-ico">⚙</span>Account Services</button>
+      </div>
+    </section>
+
+    <p class="disclaimer">Demonstration prototype. Not affiliated with American Express. All data shown is fictional.</p>
+  </main>
+
+  <!-- Third-party permissions simulation overlay -->
+  <div class="tpp-overlay" id="tppOverlay" hidden>
+    <div class="tpp-modal">
+      <div class="tpp-breadcrumb" id="tppBreadcrumb"></div>
+      <div class="tpp-stage" id="tppStage"></div>
+      <button class="tpp-close" id="tppClose">Close</button>
+    </div>
+  </div>
+
+  <!-- Concierge chat icon (FAB) -->
+  <button class="concierge-fab" id="conciergeFab" aria-label="Open Concierge chat">
+    <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 11.5a8.38 8.38 0 0 1-8.5 8.5 8.5 8.5 0 0 1-3.8-.9L3 21l1.9-5.7A8.38 8.38 0 0 1 4 11.5 8.5 8.5 0 0 1 12.5 3 8.38 8.38 0 0 1 21 11.5z"/>
+    </svg>
+  </button>
+
+  <!-- Concierge chat panel -->
+  <section class="concierge" id="conciergePanel" hidden>
+    <header class="concierge-head">
+      <div class="concierge-id">
+        <span class="concierge-avatar">✦</span>
+        <div>
+          <div class="concierge-title">Amex Concierge</div>
+          <div class="concierge-status">online · here to help</div>
+        </div>
+      </div>
+      <button class="concierge-close" id="conciergeClose" aria-label="Close chat">×</button>
+    </header>
+
+    <div class="concierge-body" id="chatBody"><!-- greeting injected by app.js --></div>
+
+    <form class="concierge-input" id="chatForm">
+      <input id="chatInput" type="text" placeholder="Ask the Concierge…" autocomplete="off" />
+      <button type="submit" id="sendBtn" aria-label="Send">→</button>
+    </form>
+  </section>
+
+  <script src="/app.js"></script>
+</body>
+</html>
