@@ -1,0 +1,10 @@
+[
+  { "id": "stmt_2026_05", "month": "May",      "year": 2026, "period": "2026-05", "closingBalance": 2384.51, "minimumDue": 71.54, "dueDate": "2026-06-22", "status": "current" },
+  { "id": "stmt_2026_04", "month": "April",    "year": 2026, "period": "2026-04", "closingBalance": 3110.08, "minimumDue": 93.30, "dueDate": "2026-05-22", "status": "available" },
+  { "id": "stmt_2026_03", "month": "March",    "year": 2026, "period": "2026-03", "closingBalance": 4297.63, "minimumDue": 128.93, "dueDate": "2026-04-22", "status": "available" },
+  { "id": "stmt_2026_02", "month": "February", "year": 2026, "period": "2026-02", "closingBalance": 1985.20, "minimumDue": 59.56, "dueDate": "2026-03-22", "status": "available" },
+  { "id": "stmt_2026_01", "month": "January",  "year": 2026, "period": "2026-01", "closingBalance": 2640.77, "minimumDue": 79.22, "dueDate": "2026-02-22", "status": "available" },
+  { "id": "stmt_2025_12", "month": "December", "year": 2025, "period": "2025-12", "closingBalance": 5128.44, "minimumDue": 153.85, "dueDate": "2026-01-22", "status": "available" },
+  { "id": "stmt_2025_11", "month": "November", "year": 2025, "period": "2025-11", "closingBalance": 3902.16, "minimumDue": 117.06, "dueDate": "2025-12-22", "status": "available" },
+  { "id": "stmt_2025_10", "month": "October",  "year": 2025, "period": "2025-10", "closingBalance": 2771.39, "minimumDue": 83.14, "dueDate": "2025-11-22", "status": "available" }
+]

@@ -1,0 +1,33 @@
+{
+  "fico": {
+    "score": 782,
+    "band": "Very Good",
+    "range": "300\u2013850",
+    "provider": "American Express MyCredit Guide (Experian data)",
+    "updated": "June 1, 2026",
+    "change": 9
+  },
+  "deposit": {
+    "checking": {
+      "name": "American Express Rewards Checking",
+      "routing": "124085066",
+      "accountLast4": "4417",
+      "bank": "American Express National Bank",
+      "image": "/img/checking.png"
+    },
+    "savings": {
+      "name": "American Express High Yield Savings",
+      "routing": "124085066",
+      "accountLast4": "9930",
+      "bank": "American Express National Bank",
+      "image": "/img/savings.png"
+    }
+  },
+  "liveAgent": {
+    "agentName": "Maria R.",
+    "waitMinutes": 2,
+    "queuePosition": 1,
+    "channel": "Secure chat",
+    "hours": "Customer Care is available 24/7"
+  }
+}

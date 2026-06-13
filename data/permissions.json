@@ -1,0 +1,6 @@
+[
+  { "app": "Plaid",       "purpose": "Connects your account to budgeting & fintech apps", "status": "Connected",    "since": "2024-08-12", "access": "Account & transactions (read-only)" },
+  { "app": "Mint",        "purpose": "Personal budgeting and spend tracking",              "status": "Connected",    "since": "2023-11-03", "access": "Balances & transactions (read-only)" },
+  { "app": "Expensify",   "purpose": "Business expense reports",                           "status": "Connected",    "since": "2025-02-19", "access": "Transactions (read-only)" },
+  { "app": "Venmo",       "purpose": "Peer-to-peer payments",                              "status": "Not connected", "since": null,        "access": "\u2014" }
+]

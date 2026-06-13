@@ -1,0 +1,3439 @@
+[
+  {
+    "id": "txn_1406",
+    "date": "2026-06-06",
+    "merchant": "Whole Foods",
+    "category": "Groceries",
+    "amount": 179.67
+  },
+  {
+    "id": "txn_1392",
+    "date": "2026-06-06",
+    "merchant": "Blue Bottle Coffee",
+    "category": "Coffee",
+    "amount": 7.24
+  },
+  {
+    "id": "txn_1378",
+    "date": "2026-06-06",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 5.61
+  },
+  {
+    "id": "txn_1488",
+    "date": "2026-06-05",
+    "merchant": "Nike",
+    "category": "Shopping",
+    "amount": 137.43
+  },
+  {
+    "id": "txn_1487",
+    "date": "2026-06-05",
+    "merchant": "Nike",
+    "category": "Shopping",
+    "amount": 213.38
+  },
+  {
+    "id": "txn_1477",
+    "date": "2026-06-05",
+    "merchant": "Shell",
+    "category": "Fuel",
+    "amount": 48.52
+  },
+  {
+    "id": "txn_1472",
+    "date": "2026-06-05",
+    "merchant": "Joe's Pizza",
+    "category": "Dining",
+    "amount": 20.9
+  },
+  {
+    "id": "txn_1449",
+    "date": "2026-06-05",
+    "merchant": "Disney+",
+    "category": "Subscriptions",
+    "amount": 13.99
+  },
+  {
+    "id": "txn_1399",
+    "date": "2026-06-05",
+    "merchant": "Sweetgreen",
+    "category": "Dining",
+    "amount": 19.21
+  },
+  {
+    "id": "txn_1364",
+    "date": "2026-06-05",
+    "merchant": "Lyft",
+    "category": "Rideshare",
+    "amount": 36.92
+  },
+  {
+    "id": "txn_1353",
+    "date": "2026-06-05",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 32.01
+  },
+  {
+    "id": "txn_1480",
+    "date": "2026-06-04",
+    "merchant": "Shell",
+    "category": "Fuel",
+    "amount": 47.31
+  },
+  {
+    "id": "txn_1424",
+    "date": "2026-06-04",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 159.41
+  },
+  {
+    "id": "txn_1368",
+    "date": "2026-06-04",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 7.46
+  },
+  {
+    "id": "txn_1489",
+    "date": "2026-06-03",
+    "merchant": "Best Buy",
+    "category": "Electronics",
+    "amount": 292.26
+  },
+  {
+    "id": "txn_1478",
+    "date": "2026-06-03",
+    "merchant": "Shell",
+    "category": "Fuel",
+    "amount": 41.48
+  },
+  {
+    "id": "txn_1444",
+    "date": "2026-06-02",
+    "merchant": "Spotify",
+    "category": "Subscriptions",
+    "amount": 11.99
+  },
+  {
+    "id": "txn_1439",
+    "date": "2026-06-02",
+    "merchant": "Netflix",
+    "category": "Subscriptions",
+    "amount": 15.49
+  },
+  {
+    "id": "txn_1423",
+    "date": "2026-06-02",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 44.51
+  },
+  {
+    "id": "txn_1375",
+    "date": "2026-06-02",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 9.49
+  },
+  {
+    "id": "txn_1344",
+    "date": "2026-06-02",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 12.97
+  },
+  {
+    "id": "txn_1467",
+    "date": "2026-06-01",
+    "merchant": "The Cheesecake Factory",
+    "category": "Dining",
+    "amount": 83.43
+  },
+  {
+    "id": "txn_1459",
+    "date": "2026-06-01",
+    "merchant": "Delta Air Lines",
+    "category": "Travel",
+    "amount": 432.25
+  },
+  {
+    "id": "txn_1454",
+    "date": "2026-06-01",
+    "merchant": "The New York Times",
+    "category": "Subscriptions",
+    "amount": 17
+  },
+  {
+    "id": "txn_1440",
+    "date": "2026-06-01",
+    "merchant": "Netflix",
+    "category": "Subscriptions",
+    "amount": 15.49
+  },
+  {
+    "id": "txn_1484",
+    "date": "2026-05-28",
+    "merchant": "Chevron",
+    "category": "Fuel",
+    "amount": 47.74
+  },
+  {
+    "id": "txn_1428",
+    "date": "2026-05-28",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 49.04
+  },
+  {
+    "id": "txn_1411",
+    "date": "2026-05-26",
+    "merchant": "Whole Foods",
+    "category": "Groceries",
+    "amount": 62.99
+  },
+  {
+    "id": "txn_1366",
+    "date": "2026-05-25",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 5.69
+  },
+  {
+    "id": "txn_1458",
+    "date": "2026-05-24",
+    "merchant": "The New York Times",
+    "category": "Subscriptions",
+    "amount": 17
+  },
+  {
+    "id": "txn_1450",
+    "date": "2026-05-24",
+    "merchant": "Disney+",
+    "category": "Subscriptions",
+    "amount": 13.99
+  },
+  {
+    "id": "txn_1374",
+    "date": "2026-05-24",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 9.47
+  },
+  {
+    "id": "txn_1456",
+    "date": "2026-05-22",
+    "merchant": "The New York Times",
+    "category": "Subscriptions",
+    "amount": 17
+  },
+  {
+    "id": "txn_1437",
+    "date": "2026-05-22",
+    "merchant": "Netflix",
+    "category": "Subscriptions",
+    "amount": 15.49
+  },
+  {
+    "id": "txn_1426",
+    "date": "2026-05-21",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 188.7
+  },
+  {
+    "id": "txn_1356",
+    "date": "2026-05-20",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 36
+  },
+  {
+    "id": "txn_1482",
+    "date": "2026-05-18",
+    "merchant": "Shell",
+    "category": "Fuel",
+    "amount": 76.07
+  },
+  {
+    "id": "txn_1371",
+    "date": "2026-05-17",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 5.92
+  },
+  {
+    "id": "txn_1388",
+    "date": "2026-05-13",
+    "merchant": "Blue Bottle Coffee",
+    "category": "Coffee",
+    "amount": 7.34
+  },
+  {
+    "id": "txn_1396",
+    "date": "2026-05-11",
+    "merchant": "Sweetgreen",
+    "category": "Dining",
+    "amount": 15.94
+  },
+  {
+    "id": "txn_1389",
+    "date": "2026-05-10",
+    "merchant": "Blue Bottle Coffee",
+    "category": "Coffee",
+    "amount": 5.83
+  },
+  {
+    "id": "txn_1421",
+    "date": "2026-05-06",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 178.09
+  },
+  {
+    "id": "txn_1355",
+    "date": "2026-05-06",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 35.1
+  },
+  {
+    "id": "txn_1383",
+    "date": "2026-05-04",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 8.89
+  },
+  {
+    "id": "txn_1352",
+    "date": "2026-05-04",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 43.99
+  },
+  {
+    "id": "txn_1349",
+    "date": "2026-05-02",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 20.19
+  },
+  {
+    "id": "txn_1367",
+    "date": "2026-04-28",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 5.97
+  },
+  {
+    "id": "txn_1483",
+    "date": "2026-04-27",
+    "merchant": "Chevron",
+    "category": "Fuel",
+    "amount": 76.95
+  },
+  {
+    "id": "txn_1430",
+    "date": "2026-04-26",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 135.65
+  },
+  {
+    "id": "txn_1468",
+    "date": "2026-04-24",
+    "merchant": "The Cheesecake Factory",
+    "category": "Dining",
+    "amount": 82.49
+  },
+  {
+    "id": "txn_1382",
+    "date": "2026-04-24",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 8.25
+  },
+  {
+    "id": "txn_1390",
+    "date": "2026-04-22",
+    "merchant": "Blue Bottle Coffee",
+    "category": "Coffee",
+    "amount": 7.13
+  },
+  {
+    "id": "txn_1433",
+    "date": "2026-04-21",
+    "merchant": "Target",
+    "category": "Shopping",
+    "amount": 29.37
+  },
+  {
+    "id": "txn_1386",
+    "date": "2026-04-21",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 6.7
+  },
+  {
+    "id": "txn_1481",
+    "date": "2026-04-20",
+    "merchant": "Shell",
+    "category": "Fuel",
+    "amount": 42.38
+  },
+  {
+    "id": "txn_1473",
+    "date": "2026-04-20",
+    "merchant": "Joe's Pizza",
+    "category": "Dining",
+    "amount": 17.31
+  },
+  {
+    "id": "txn_1397",
+    "date": "2026-04-20",
+    "merchant": "Sweetgreen",
+    "category": "Dining",
+    "amount": 14.92
+  },
+  {
+    "id": "txn_1414",
+    "date": "2026-04-19",
+    "merchant": "Trader Joe's",
+    "category": "Groceries",
+    "amount": 66.93
+  },
+  {
+    "id": "txn_1422",
+    "date": "2026-04-18",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 97.66
+  },
+  {
+    "id": "txn_1345",
+    "date": "2026-04-17",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 28.6
+  },
+  {
+    "id": "txn_1413",
+    "date": "2026-04-16",
+    "merchant": "Trader Joe's",
+    "category": "Groceries",
+    "amount": 59.79
+  },
+  {
+    "id": "txn_1474",
+    "date": "2026-04-14",
+    "merchant": "Joe's Pizza",
+    "category": "Dining",
+    "amount": 12.52
+  },
+  {
+    "id": "txn_1435",
+    "date": "2026-04-13",
+    "merchant": "Netflix",
+    "category": "Subscriptions",
+    "amount": 15.49
+  },
+  {
+    "id": "txn_1420",
+    "date": "2026-04-12",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 105.11
+  },
+  {
+    "id": "txn_1351",
+    "date": "2026-04-12",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 37.87
+  },
+  {
+    "id": "txn_1403",
+    "date": "2026-04-11",
+    "merchant": "Sweetgreen",
+    "category": "Dining",
+    "amount": 18.84
+  },
+  {
+    "id": "txn_1427",
+    "date": "2026-04-10",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 37.83
+  },
+  {
+    "id": "txn_1391",
+    "date": "2026-04-10",
+    "merchant": "Blue Bottle Coffee",
+    "category": "Coffee",
+    "amount": 6.09
+  },
+  {
+    "id": "txn_1429",
+    "date": "2026-04-09",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 234.45
+  },
+  {
+    "id": "txn_1425",
+    "date": "2026-04-09",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 223.32
+  },
+  {
+    "id": "txn_1384",
+    "date": "2026-04-07",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 7.66
+  },
+  {
+    "id": "txn_1451",
+    "date": "2026-04-06",
+    "merchant": "Disney+",
+    "category": "Subscriptions",
+    "amount": 13.99
+  },
+  {
+    "id": "txn_1447",
+    "date": "2026-04-06",
+    "merchant": "Disney+",
+    "category": "Subscriptions",
+    "amount": 13.99
+  },
+  {
+    "id": "txn_1464",
+    "date": "2026-04-03",
+    "merchant": "Nobu",
+    "category": "Dining",
+    "amount": 258.2
+  },
+  {
+    "id": "txn_1432",
+    "date": "2026-04-01",
+    "merchant": "Target",
+    "category": "Shopping",
+    "amount": 150.45
+  },
+  {
+    "id": "txn_1363",
+    "date": "2026-04-01",
+    "merchant": "Lyft",
+    "category": "Rideshare",
+    "amount": 26.4
+  },
+  {
+    "id": "txn_1462",
+    "date": "2026-03-25",
+    "merchant": "Marriott",
+    "category": "Travel",
+    "amount": 539.72
+  },
+  {
+    "id": "txn_1443",
+    "date": "2026-03-25",
+    "merchant": "Spotify",
+    "category": "Subscriptions",
+    "amount": 11.99
+  },
+  {
+    "id": "txn_1417",
+    "date": "2026-03-25",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 83.7
+  },
+  {
+    "id": "txn_1412",
+    "date": "2026-03-22",
+    "merchant": "Trader Joe's",
+    "category": "Groceries",
+    "amount": 52.58
+  },
+  {
+    "id": "txn_1471",
+    "date": "2026-03-20",
+    "merchant": "Joe's Pizza",
+    "category": "Dining",
+    "amount": 27.38
+  },
+  {
+    "id": "txn_1400",
+    "date": "2026-03-20",
+    "merchant": "Sweetgreen",
+    "category": "Dining",
+    "amount": 14.62
+  },
+  {
+    "id": "txn_1419",
+    "date": "2026-03-19",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 97.82
+  },
+  {
+    "id": "txn_1418",
+    "date": "2026-03-14",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 40.39
+  },
+  {
+    "id": "txn_1358",
+    "date": "2026-03-14",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 22.39
+  },
+  {
+    "id": "txn_1407",
+    "date": "2026-03-11",
+    "merchant": "Whole Foods",
+    "category": "Groceries",
+    "amount": 172.74
+  },
+  {
+    "id": "txn_1376",
+    "date": "2026-03-09",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 5.13
+  },
+  {
+    "id": "txn_1398",
+    "date": "2026-03-08",
+    "merchant": "Sweetgreen",
+    "category": "Dining",
+    "amount": 21.42
+  },
+  {
+    "id": "txn_1448",
+    "date": "2026-03-07",
+    "merchant": "Disney+",
+    "category": "Subscriptions",
+    "amount": 13.99
+  },
+  {
+    "id": "txn_1434",
+    "date": "2026-03-07",
+    "merchant": "Target",
+    "category": "Shopping",
+    "amount": 148.07
+  },
+  {
+    "id": "txn_1485",
+    "date": "2026-03-04",
+    "merchant": "Chevron",
+    "category": "Fuel",
+    "amount": 57.28
+  },
+  {
+    "id": "txn_1438",
+    "date": "2026-03-04",
+    "merchant": "Netflix",
+    "category": "Subscriptions",
+    "amount": 15.49
+  },
+  {
+    "id": "txn_1475",
+    "date": "2026-03-03",
+    "merchant": "Joe's Pizza",
+    "category": "Dining",
+    "amount": 20.24
+  },
+  {
+    "id": "txn_1466",
+    "date": "2026-03-03",
+    "merchant": "Carbone",
+    "category": "Dining",
+    "amount": 123.05
+  },
+  {
+    "id": "txn_1470",
+    "date": "2026-03-02",
+    "merchant": "Joe's Pizza",
+    "category": "Dining",
+    "amount": 27.08
+  },
+  {
+    "id": "txn_1359",
+    "date": "2026-03-02",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 20.69
+  },
+  {
+    "id": "txn_1460",
+    "date": "2026-03-01",
+    "merchant": "Delta Air Lines",
+    "category": "Travel",
+    "amount": 382.57
+  },
+  {
+    "id": "txn_1410",
+    "date": "2026-02-28",
+    "merchant": "Whole Foods",
+    "category": "Groceries",
+    "amount": 110.25
+  },
+  {
+    "id": "txn_1380",
+    "date": "2026-02-28",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 9.21
+  },
+  {
+    "id": "txn_1373",
+    "date": "2026-02-28",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 4.8
+  },
+  {
+    "id": "txn_1452",
+    "date": "2026-02-27",
+    "merchant": "Disney+",
+    "category": "Subscriptions",
+    "amount": 13.99
+  },
+  {
+    "id": "txn_1395",
+    "date": "2026-02-26",
+    "merchant": "Sweetgreen",
+    "category": "Dining",
+    "amount": 20.57
+  },
+  {
+    "id": "txn_1357",
+    "date": "2026-02-25",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 19
+  },
+  {
+    "id": "txn_1455",
+    "date": "2026-02-22",
+    "merchant": "The New York Times",
+    "category": "Subscriptions",
+    "amount": 17
+  },
+  {
+    "id": "txn_1361",
+    "date": "2026-02-22",
+    "merchant": "Lyft",
+    "category": "Rideshare",
+    "amount": 17.34
+  },
+  {
+    "id": "txn_1445",
+    "date": "2026-02-20",
+    "merchant": "Spotify",
+    "category": "Subscriptions",
+    "amount": 11.99
+  },
+  {
+    "id": "txn_1394",
+    "date": "2026-02-19",
+    "merchant": "Blue Bottle Coffee",
+    "category": "Coffee",
+    "amount": 7.07
+  },
+  {
+    "id": "txn_1436",
+    "date": "2026-02-18",
+    "merchant": "Netflix",
+    "category": "Subscriptions",
+    "amount": 15.49
+  },
+  {
+    "id": "txn_1486",
+    "date": "2026-02-17",
+    "merchant": "Chevron",
+    "category": "Fuel",
+    "amount": 72.8
+  },
+  {
+    "id": "txn_1404",
+    "date": "2026-02-15",
+    "merchant": "Whole Foods",
+    "category": "Groceries",
+    "amount": 105.77
+  },
+  {
+    "id": "txn_1365",
+    "date": "2026-02-15",
+    "merchant": "Lyft",
+    "category": "Rideshare",
+    "amount": 16.5
+  },
+  {
+    "id": "txn_1369",
+    "date": "2026-02-14",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 4.86
+  },
+  {
+    "id": "txn_1370",
+    "date": "2026-02-10",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 7.11
+  },
+  {
+    "id": "txn_1385",
+    "date": "2026-02-08",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 5.11
+  },
+  {
+    "id": "txn_1416",
+    "date": "2026-02-04",
+    "merchant": "Trader Joe's",
+    "category": "Groceries",
+    "amount": 42.53
+  },
+  {
+    "id": "txn_1346",
+    "date": "2026-01-25",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 27.35
+  },
+  {
+    "id": "txn_1463",
+    "date": "2026-01-24",
+    "merchant": "Airbnb",
+    "category": "Travel",
+    "amount": 244.27
+  },
+  {
+    "id": "txn_1354",
+    "date": "2026-01-24",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 17.16
+  },
+  {
+    "id": "txn_1461",
+    "date": "2026-01-23",
+    "merchant": "Marriott",
+    "category": "Travel",
+    "amount": 403.52
+  },
+  {
+    "id": "txn_1402",
+    "date": "2026-01-22",
+    "merchant": "Sweetgreen",
+    "category": "Dining",
+    "amount": 17.4
+  },
+  {
+    "id": "txn_1381",
+    "date": "2026-01-21",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 6.71
+  },
+  {
+    "id": "txn_1350",
+    "date": "2026-01-21",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 21.31
+  },
+  {
+    "id": "txn_1393",
+    "date": "2026-01-20",
+    "merchant": "Blue Bottle Coffee",
+    "category": "Coffee",
+    "amount": 8.68
+  },
+  {
+    "id": "txn_1409",
+    "date": "2026-01-19",
+    "merchant": "Whole Foods",
+    "category": "Groceries",
+    "amount": 178.38
+  },
+  {
+    "id": "txn_1405",
+    "date": "2026-01-19",
+    "merchant": "Whole Foods",
+    "category": "Groceries",
+    "amount": 166.1
+  },
+  {
+    "id": "txn_1446",
+    "date": "2026-01-18",
+    "merchant": "Spotify",
+    "category": "Subscriptions",
+    "amount": 11.99
+  },
+  {
+    "id": "txn_1431",
+    "date": "2026-01-18",
+    "merchant": "Target",
+    "category": "Shopping",
+    "amount": 130.35
+  },
+  {
+    "id": "txn_1347",
+    "date": "2026-01-16",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 23.35
+  },
+  {
+    "id": "txn_1372",
+    "date": "2026-01-15",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 5.67
+  },
+  {
+    "id": "txn_1469",
+    "date": "2026-01-13",
+    "merchant": "The Cheesecake Factory",
+    "category": "Dining",
+    "amount": 36.86
+  },
+  {
+    "id": "txn_1348",
+    "date": "2026-01-12",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 19.55
+  },
+  {
+    "id": "txn_1362",
+    "date": "2026-01-09",
+    "merchant": "Lyft",
+    "category": "Rideshare",
+    "amount": 12.29
+  },
+  {
+    "id": "txn_1415",
+    "date": "2026-01-08",
+    "merchant": "Trader Joe's",
+    "category": "Groceries",
+    "amount": 45.21
+  },
+  {
+    "id": "txn_1379",
+    "date": "2026-01-08",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 8.59
+  },
+  {
+    "id": "txn_1490",
+    "date": "2026-01-07",
+    "merchant": "Apple",
+    "category": "Electronics",
+    "amount": 1030.83
+  },
+  {
+    "id": "txn_1465",
+    "date": "2026-01-06",
+    "merchant": "Nobu",
+    "category": "Dining",
+    "amount": 116.53
+  },
+  {
+    "id": "txn_1457",
+    "date": "2026-01-06",
+    "merchant": "The New York Times",
+    "category": "Subscriptions",
+    "amount": 17
+  },
+  {
+    "id": "txn_1441",
+    "date": "2026-01-05",
+    "merchant": "Spotify",
+    "category": "Subscriptions",
+    "amount": 11.99
+  },
+  {
+    "id": "txn_1387",
+    "date": "2026-01-05",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 5.86
+  },
+  {
+    "id": "txn_1401",
+    "date": "2026-01-04",
+    "merchant": "Sweetgreen",
+    "category": "Dining",
+    "amount": 15.29
+  },
+  {
+    "id": "txn_1360",
+    "date": "2026-01-04",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 17.78
+  },
+  {
+    "id": "txn_1479",
+    "date": "2026-01-03",
+    "merchant": "Shell",
+    "category": "Fuel",
+    "amount": 37.77
+  },
+  {
+    "id": "txn_1453",
+    "date": "2026-01-03",
+    "merchant": "The New York Times",
+    "category": "Subscriptions",
+    "amount": 17
+  },
+  {
+    "id": "txn_1377",
+    "date": "2026-01-03",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 9.17
+  },
+  {
+    "id": "txn_1408",
+    "date": "2026-01-02",
+    "merchant": "Whole Foods",
+    "category": "Groceries",
+    "amount": 171.11
+  },
+  {
+    "id": "txn_1476",
+    "date": "2026-01-01",
+    "merchant": "Shell",
+    "category": "Fuel",
+    "amount": 73.01
+  },
+  {
+    "id": "txn_1442",
+    "date": "2026-01-01",
+    "merchant": "Spotify",
+    "category": "Subscriptions",
+    "amount": 11.99
+  },
+  {
+    "id": "txn_1195",
+    "date": "2025-12-27",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 151.61
+  },
+  {
+    "id": "txn_1148",
+    "date": "2025-12-27",
+    "merchant": "Whole Foods",
+    "category": "Groceries",
+    "amount": 140.74
+  },
+  {
+    "id": "txn_1137",
+    "date": "2025-12-27",
+    "merchant": "Whole Foods",
+    "category": "Groceries",
+    "amount": 52.3
+  },
+  {
+    "id": "txn_1232",
+    "date": "2025-12-26",
+    "merchant": "Spotify",
+    "category": "Subscriptions",
+    "amount": 11.99
+  },
+  {
+    "id": "txn_1233",
+    "date": "2025-12-25",
+    "merchant": "Spotify",
+    "category": "Subscriptions",
+    "amount": 11.99
+  },
+  {
+    "id": "txn_1206",
+    "date": "2025-12-24",
+    "merchant": "Target",
+    "category": "Shopping",
+    "amount": 77.41
+  },
+  {
+    "id": "txn_1273",
+    "date": "2025-12-23",
+    "merchant": "United Airlines",
+    "category": "Travel",
+    "amount": 183.61
+  },
+  {
+    "id": "txn_1129",
+    "date": "2025-12-22",
+    "merchant": "Sweetgreen",
+    "category": "Dining",
+    "amount": 17.61
+  },
+  {
+    "id": "txn_1342",
+    "date": "2025-12-20",
+    "merchant": "Apple",
+    "category": "Electronics",
+    "amount": 1277.3
+  },
+  {
+    "id": "txn_1142",
+    "date": "2025-12-20",
+    "merchant": "Whole Foods",
+    "category": "Groceries",
+    "amount": 164.12
+  },
+  {
+    "id": "txn_1112",
+    "date": "2025-12-20",
+    "merchant": "Blue Bottle Coffee",
+    "category": "Coffee",
+    "amount": 5.34
+  },
+  {
+    "id": "txn_1018",
+    "date": "2025-12-19",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 26.16
+  },
+  {
+    "id": "txn_1259",
+    "date": "2025-12-17",
+    "merchant": "The New York Times",
+    "category": "Subscriptions",
+    "amount": 17
+  },
+  {
+    "id": "txn_1089",
+    "date": "2025-12-17",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 7.41
+  },
+  {
+    "id": "txn_1175",
+    "date": "2025-12-16",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 174.32
+  },
+  {
+    "id": "txn_1304",
+    "date": "2025-12-14",
+    "merchant": "Joe's Pizza",
+    "category": "Dining",
+    "amount": 24.46
+  },
+  {
+    "id": "txn_1108",
+    "date": "2025-12-13",
+    "merchant": "Blue Bottle Coffee",
+    "category": "Coffee",
+    "amount": 8.06
+  },
+  {
+    "id": "txn_1216",
+    "date": "2025-12-12",
+    "merchant": "Netflix",
+    "category": "Subscriptions",
+    "amount": 15.49
+  },
+  {
+    "id": "txn_1306",
+    "date": "2025-12-11",
+    "merchant": "Joe's Pizza",
+    "category": "Dining",
+    "amount": 23.54
+  },
+  {
+    "id": "txn_1189",
+    "date": "2025-12-11",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 46.23
+  },
+  {
+    "id": "txn_1139",
+    "date": "2025-12-11",
+    "merchant": "Whole Foods",
+    "category": "Groceries",
+    "amount": 105.42
+  },
+  {
+    "id": "txn_1308",
+    "date": "2025-12-05",
+    "merchant": "Shell",
+    "category": "Fuel",
+    "amount": 53.72
+  },
+  {
+    "id": "txn_1044",
+    "date": "2025-12-05",
+    "merchant": "Lyft",
+    "category": "Rideshare",
+    "amount": 22.8
+  },
+  {
+    "id": "txn_1283",
+    "date": "2025-12-02",
+    "merchant": "Nobu",
+    "category": "Dining",
+    "amount": 168.75
+  },
+  {
+    "id": "txn_1168",
+    "date": "2025-12-01",
+    "merchant": "Trader Joe's",
+    "category": "Groceries",
+    "amount": 92.19
+  },
+  {
+    "id": "txn_1127",
+    "date": "2025-12-01",
+    "merchant": "Sweetgreen",
+    "category": "Dining",
+    "amount": 19.18
+  },
+  {
+    "id": "txn_1111",
+    "date": "2025-12-01",
+    "merchant": "Blue Bottle Coffee",
+    "category": "Coffee",
+    "amount": 9.42
+  },
+  {
+    "id": "txn_1154",
+    "date": "2025-11-28",
+    "merchant": "Whole Foods",
+    "category": "Groceries",
+    "amount": 150.95
+  },
+  {
+    "id": "txn_1332",
+    "date": "2025-11-27",
+    "merchant": "Chevron",
+    "category": "Fuel",
+    "amount": 80.24
+  },
+  {
+    "id": "txn_1327",
+    "date": "2025-11-27",
+    "merchant": "Chevron",
+    "category": "Fuel",
+    "amount": 67.22
+  },
+  {
+    "id": "txn_1134",
+    "date": "2025-11-26",
+    "merchant": "Sweetgreen",
+    "category": "Dining",
+    "amount": 12.78
+  },
+  {
+    "id": "txn_1281",
+    "date": "2025-11-23",
+    "merchant": "Airbnb",
+    "category": "Travel",
+    "amount": 300.56
+  },
+  {
+    "id": "txn_1276",
+    "date": "2025-11-23",
+    "merchant": "Marriott",
+    "category": "Travel",
+    "amount": 341.69
+  },
+  {
+    "id": "txn_1002",
+    "date": "2025-11-23",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 30.25
+  },
+  {
+    "id": "txn_1096",
+    "date": "2025-11-21",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 7.23
+  },
+  {
+    "id": "txn_1158",
+    "date": "2025-11-19",
+    "merchant": "Trader Joe's",
+    "category": "Groceries",
+    "amount": 98.43
+  },
+  {
+    "id": "txn_1131",
+    "date": "2025-11-19",
+    "merchant": "Sweetgreen",
+    "category": "Dining",
+    "amount": 17.03
+  },
+  {
+    "id": "txn_1260",
+    "date": "2025-11-18",
+    "merchant": "The New York Times",
+    "category": "Subscriptions",
+    "amount": 17
+  },
+  {
+    "id": "txn_1150",
+    "date": "2025-11-18",
+    "merchant": "Whole Foods",
+    "category": "Groceries",
+    "amount": 166.35
+  },
+  {
+    "id": "txn_1049",
+    "date": "2025-11-18",
+    "merchant": "Lyft",
+    "category": "Rideshare",
+    "amount": 17.91
+  },
+  {
+    "id": "txn_1187",
+    "date": "2025-11-17",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 203.37
+  },
+  {
+    "id": "txn_1099",
+    "date": "2025-11-17",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 5.17
+  },
+  {
+    "id": "txn_1055",
+    "date": "2025-11-17",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 6.8
+  },
+  {
+    "id": "txn_1282",
+    "date": "2025-11-16",
+    "merchant": "Nobu",
+    "category": "Dining",
+    "amount": 275.67
+  },
+  {
+    "id": "txn_1336",
+    "date": "2025-11-15",
+    "merchant": "Nike",
+    "category": "Shopping",
+    "amount": 92.33
+  },
+  {
+    "id": "txn_1231",
+    "date": "2025-11-13",
+    "merchant": "Spotify",
+    "category": "Subscriptions",
+    "amount": 11.99
+  },
+  {
+    "id": "txn_1022",
+    "date": "2025-11-11",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 20.32
+  },
+  {
+    "id": "txn_1182",
+    "date": "2025-11-08",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 150.38
+  },
+  {
+    "id": "txn_1251",
+    "date": "2025-11-07",
+    "merchant": "Disney+",
+    "category": "Subscriptions",
+    "amount": 13.99
+  },
+  {
+    "id": "txn_1021",
+    "date": "2025-11-06",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 32.12
+  },
+  {
+    "id": "txn_1191",
+    "date": "2025-11-04",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 192.64
+  },
+  {
+    "id": "txn_1305",
+    "date": "2025-11-03",
+    "merchant": "Joe's Pizza",
+    "category": "Dining",
+    "amount": 15.4
+  },
+  {
+    "id": "txn_1176",
+    "date": "2025-11-03",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 188.55
+  },
+  {
+    "id": "txn_1302",
+    "date": "2025-10-28",
+    "merchant": "Joe's Pizza",
+    "category": "Dining",
+    "amount": 18.66
+  },
+  {
+    "id": "txn_1343",
+    "date": "2025-10-25",
+    "merchant": "B&H Photo",
+    "category": "Electronics",
+    "amount": 696.24
+  },
+  {
+    "id": "txn_1186",
+    "date": "2025-10-25",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 198.61
+  },
+  {
+    "id": "txn_1244",
+    "date": "2025-10-24",
+    "merchant": "Disney+",
+    "category": "Subscriptions",
+    "amount": 13.99
+  },
+  {
+    "id": "txn_1068",
+    "date": "2025-10-22",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 9.22
+  },
+  {
+    "id": "txn_1293",
+    "date": "2025-10-21",
+    "merchant": "The Cheesecake Factory",
+    "category": "Dining",
+    "amount": 70.96
+  },
+  {
+    "id": "txn_1278",
+    "date": "2025-10-21",
+    "merchant": "Marriott",
+    "category": "Travel",
+    "amount": 378.75
+  },
+  {
+    "id": "txn_1159",
+    "date": "2025-10-21",
+    "merchant": "Trader Joe's",
+    "category": "Groceries",
+    "amount": 54.85
+  },
+  {
+    "id": "txn_1029",
+    "date": "2025-10-20",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 31.79
+  },
+  {
+    "id": "txn_1083",
+    "date": "2025-10-18",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 8.33
+  },
+  {
+    "id": "txn_1183",
+    "date": "2025-10-17",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 182.11
+  },
+  {
+    "id": "txn_1042",
+    "date": "2025-10-17",
+    "merchant": "Lyft",
+    "category": "Rideshare",
+    "amount": 29.68
+  },
+  {
+    "id": "txn_1262",
+    "date": "2025-10-15",
+    "merchant": "The New York Times",
+    "category": "Subscriptions",
+    "amount": 17
+  },
+  {
+    "id": "txn_1250",
+    "date": "2025-10-15",
+    "merchant": "Disney+",
+    "category": "Subscriptions",
+    "amount": 13.99
+  },
+  {
+    "id": "txn_1248",
+    "date": "2025-10-15",
+    "merchant": "Disney+",
+    "category": "Subscriptions",
+    "amount": 13.99
+  },
+  {
+    "id": "txn_1092",
+    "date": "2025-10-15",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 4.53
+  },
+  {
+    "id": "txn_1105",
+    "date": "2025-10-13",
+    "merchant": "Blue Bottle Coffee",
+    "category": "Coffee",
+    "amount": 7.29
+  },
+  {
+    "id": "txn_1243",
+    "date": "2025-10-12",
+    "merchant": "Disney+",
+    "category": "Subscriptions",
+    "amount": 13.99
+  },
+  {
+    "id": "txn_1338",
+    "date": "2025-10-11",
+    "merchant": "Best Buy",
+    "category": "Electronics",
+    "amount": 694.82
+  },
+  {
+    "id": "txn_1279",
+    "date": "2025-10-11",
+    "merchant": "Airbnb",
+    "category": "Travel",
+    "amount": 189.56
+  },
+  {
+    "id": "txn_1193",
+    "date": "2025-10-11",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 94.82
+  },
+  {
+    "id": "txn_1151",
+    "date": "2025-10-11",
+    "merchant": "Whole Foods",
+    "category": "Groceries",
+    "amount": 153.62
+  },
+  {
+    "id": "txn_1038",
+    "date": "2025-10-11",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 18.39
+  },
+  {
+    "id": "txn_1287",
+    "date": "2025-10-08",
+    "merchant": "Carbone",
+    "category": "Dining",
+    "amount": 298.48
+  },
+  {
+    "id": "txn_1275",
+    "date": "2025-10-08",
+    "merchant": "Marriott",
+    "category": "Travel",
+    "amount": 539.88
+  },
+  {
+    "id": "txn_1253",
+    "date": "2025-10-08",
+    "merchant": "The New York Times",
+    "category": "Subscriptions",
+    "amount": 17
+  },
+  {
+    "id": "txn_1188",
+    "date": "2025-10-08",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 128.38
+  },
+  {
+    "id": "txn_1085",
+    "date": "2025-10-08",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 9.03
+  },
+  {
+    "id": "txn_1080",
+    "date": "2025-10-08",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 5.99
+  },
+  {
+    "id": "txn_1221",
+    "date": "2025-10-06",
+    "merchant": "Netflix",
+    "category": "Subscriptions",
+    "amount": 15.49
+  },
+  {
+    "id": "txn_1197",
+    "date": "2025-10-06",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 80.25
+  },
+  {
+    "id": "txn_1311",
+    "date": "2025-10-03",
+    "merchant": "Shell",
+    "category": "Fuel",
+    "amount": 73.88
+  },
+  {
+    "id": "txn_1258",
+    "date": "2025-10-03",
+    "merchant": "The New York Times",
+    "category": "Subscriptions",
+    "amount": 17
+  },
+  {
+    "id": "txn_1081",
+    "date": "2025-10-03",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 9.45
+  },
+  {
+    "id": "txn_1109",
+    "date": "2025-10-02",
+    "merchant": "Blue Bottle Coffee",
+    "category": "Coffee",
+    "amount": 11.52
+  },
+  {
+    "id": "txn_1004",
+    "date": "2025-09-28",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 14.48
+  },
+  {
+    "id": "txn_1077",
+    "date": "2025-09-27",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 6.68
+  },
+  {
+    "id": "txn_1269",
+    "date": "2025-09-26",
+    "merchant": "Delta Air Lines",
+    "category": "Travel",
+    "amount": 368.22
+  },
+  {
+    "id": "txn_1048",
+    "date": "2025-09-26",
+    "merchant": "Lyft",
+    "category": "Rideshare",
+    "amount": 11.35
+  },
+  {
+    "id": "txn_1208",
+    "date": "2025-09-25",
+    "merchant": "Target",
+    "category": "Shopping",
+    "amount": 158.62
+  },
+  {
+    "id": "txn_1147",
+    "date": "2025-09-24",
+    "merchant": "Whole Foods",
+    "category": "Groceries",
+    "amount": 40.82
+  },
+  {
+    "id": "txn_1317",
+    "date": "2025-09-22",
+    "merchant": "Shell",
+    "category": "Fuel",
+    "amount": 43.85
+  },
+  {
+    "id": "txn_1263",
+    "date": "2025-09-21",
+    "merchant": "The New York Times",
+    "category": "Subscriptions",
+    "amount": 17
+  },
+  {
+    "id": "txn_1110",
+    "date": "2025-09-21",
+    "merchant": "Blue Bottle Coffee",
+    "category": "Coffee",
+    "amount": 7.23
+  },
+  {
+    "id": "txn_1211",
+    "date": "2025-09-20",
+    "merchant": "Target",
+    "category": "Shopping",
+    "amount": 158.17
+  },
+  {
+    "id": "txn_1205",
+    "date": "2025-09-20",
+    "merchant": "Target",
+    "category": "Shopping",
+    "amount": 67.39
+  },
+  {
+    "id": "txn_1088",
+    "date": "2025-09-17",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 7.06
+  },
+  {
+    "id": "txn_1164",
+    "date": "2025-09-16",
+    "merchant": "Trader Joe's",
+    "category": "Groceries",
+    "amount": 54.92
+  },
+  {
+    "id": "txn_1298",
+    "date": "2025-09-15",
+    "merchant": "Joe's Pizza",
+    "category": "Dining",
+    "amount": 25.83
+  },
+  {
+    "id": "txn_1060",
+    "date": "2025-09-14",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 8.7
+  },
+  {
+    "id": "txn_1149",
+    "date": "2025-09-13",
+    "merchant": "Whole Foods",
+    "category": "Groceries",
+    "amount": 53.03
+  },
+  {
+    "id": "txn_1071",
+    "date": "2025-09-13",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 6.73
+  },
+  {
+    "id": "txn_1219",
+    "date": "2025-09-12",
+    "merchant": "Netflix",
+    "category": "Subscriptions",
+    "amount": 15.49
+  },
+  {
+    "id": "txn_1161",
+    "date": "2025-09-12",
+    "merchant": "Trader Joe's",
+    "category": "Groceries",
+    "amount": 42.49
+  },
+  {
+    "id": "txn_1325",
+    "date": "2025-09-10",
+    "merchant": "Chevron",
+    "category": "Fuel",
+    "amount": 70.99
+  },
+  {
+    "id": "txn_1095",
+    "date": "2025-09-09",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 5.7
+  },
+  {
+    "id": "txn_1012",
+    "date": "2025-09-08",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 40.57
+  },
+  {
+    "id": "txn_1288",
+    "date": "2025-09-06",
+    "merchant": "The Cheesecake Factory",
+    "category": "Dining",
+    "amount": 88.25
+  },
+  {
+    "id": "txn_1290",
+    "date": "2025-09-05",
+    "merchant": "The Cheesecake Factory",
+    "category": "Dining",
+    "amount": 72.13
+  },
+  {
+    "id": "txn_1087",
+    "date": "2025-09-05",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 8.99
+  },
+  {
+    "id": "txn_1017",
+    "date": "2025-09-05",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 37.34
+  },
+  {
+    "id": "txn_1141",
+    "date": "2025-09-04",
+    "merchant": "Whole Foods",
+    "category": "Groceries",
+    "amount": 160.07
+  },
+  {
+    "id": "txn_1320",
+    "date": "2025-09-03",
+    "merchant": "Shell",
+    "category": "Fuel",
+    "amount": 67.15
+  },
+  {
+    "id": "txn_1295",
+    "date": "2025-09-03",
+    "merchant": "Joe's Pizza",
+    "category": "Dining",
+    "amount": 27.73
+  },
+  {
+    "id": "txn_1173",
+    "date": "2025-09-03",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 64.33
+  },
+  {
+    "id": "txn_1166",
+    "date": "2025-09-03",
+    "merchant": "Trader Joe's",
+    "category": "Groceries",
+    "amount": 64.17
+  },
+  {
+    "id": "txn_1234",
+    "date": "2025-09-02",
+    "merchant": "Spotify",
+    "category": "Subscriptions",
+    "amount": 11.99
+  },
+  {
+    "id": "txn_1037",
+    "date": "2025-09-02",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 13.2
+  },
+  {
+    "id": "txn_1201",
+    "date": "2025-09-01",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 23.02
+  },
+  {
+    "id": "txn_1120",
+    "date": "2025-09-01",
+    "merchant": "Sweetgreen",
+    "category": "Dining",
+    "amount": 12.91
+  },
+  {
+    "id": "txn_1326",
+    "date": "2025-08-28",
+    "merchant": "Chevron",
+    "category": "Fuel",
+    "amount": 79.87
+  },
+  {
+    "id": "txn_1280",
+    "date": "2025-08-28",
+    "merchant": "Airbnb",
+    "category": "Travel",
+    "amount": 211.46
+  },
+  {
+    "id": "txn_1165",
+    "date": "2025-08-27",
+    "merchant": "Trader Joe's",
+    "category": "Groceries",
+    "amount": 89.51
+  },
+  {
+    "id": "txn_1339",
+    "date": "2025-08-25",
+    "merchant": "Best Buy",
+    "category": "Electronics",
+    "amount": 178.69
+  },
+  {
+    "id": "txn_1179",
+    "date": "2025-08-25",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 213.26
+  },
+  {
+    "id": "txn_1323",
+    "date": "2025-08-24",
+    "merchant": "Shell",
+    "category": "Fuel",
+    "amount": 62.62
+  },
+  {
+    "id": "txn_1329",
+    "date": "2025-08-21",
+    "merchant": "Chevron",
+    "category": "Fuel",
+    "amount": 41.38
+  },
+  {
+    "id": "txn_1125",
+    "date": "2025-08-21",
+    "merchant": "Sweetgreen",
+    "category": "Dining",
+    "amount": 14.58
+  },
+  {
+    "id": "txn_1214",
+    "date": "2025-08-20",
+    "merchant": "Target",
+    "category": "Shopping",
+    "amount": 49.04
+  },
+  {
+    "id": "txn_1286",
+    "date": "2025-08-19",
+    "merchant": "Carbone",
+    "category": "Dining",
+    "amount": 292.96
+  },
+  {
+    "id": "txn_1228",
+    "date": "2025-08-19",
+    "merchant": "Spotify",
+    "category": "Subscriptions",
+    "amount": 11.99
+  },
+  {
+    "id": "txn_1198",
+    "date": "2025-08-16",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 173.38
+  },
+  {
+    "id": "txn_1303",
+    "date": "2025-08-15",
+    "merchant": "Joe's Pizza",
+    "category": "Dining",
+    "amount": 26
+  },
+  {
+    "id": "txn_1046",
+    "date": "2025-08-15",
+    "merchant": "Lyft",
+    "category": "Rideshare",
+    "amount": 18.26
+  },
+  {
+    "id": "txn_1230",
+    "date": "2025-08-13",
+    "merchant": "Spotify",
+    "category": "Subscriptions",
+    "amount": 11.99
+  },
+  {
+    "id": "txn_1135",
+    "date": "2025-08-13",
+    "merchant": "Sweetgreen",
+    "category": "Dining",
+    "amount": 13.59
+  },
+  {
+    "id": "txn_1121",
+    "date": "2025-08-13",
+    "merchant": "Sweetgreen",
+    "category": "Dining",
+    "amount": 16.13
+  },
+  {
+    "id": "txn_1074",
+    "date": "2025-08-13",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 9.01
+  },
+  {
+    "id": "txn_1072",
+    "date": "2025-08-11",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 6.26
+  },
+  {
+    "id": "txn_1070",
+    "date": "2025-08-11",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 7.71
+  },
+  {
+    "id": "txn_1031",
+    "date": "2025-08-07",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 23.57
+  },
+  {
+    "id": "txn_1117",
+    "date": "2025-08-06",
+    "merchant": "Sweetgreen",
+    "category": "Dining",
+    "amount": 12.78
+  },
+  {
+    "id": "txn_1076",
+    "date": "2025-08-05",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 4.61
+  },
+  {
+    "id": "txn_1035",
+    "date": "2025-08-05",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 45.14
+  },
+  {
+    "id": "txn_1274",
+    "date": "2025-08-02",
+    "merchant": "Marriott",
+    "category": "Travel",
+    "amount": 251.91
+  },
+  {
+    "id": "txn_1052",
+    "date": "2025-07-28",
+    "merchant": "Lyft",
+    "category": "Rideshare",
+    "amount": 12.77
+  },
+  {
+    "id": "txn_1023",
+    "date": "2025-07-28",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 12.94
+  },
+  {
+    "id": "txn_1218",
+    "date": "2025-07-26",
+    "merchant": "Netflix",
+    "category": "Subscriptions",
+    "amount": 15.49
+  },
+  {
+    "id": "txn_1203",
+    "date": "2025-07-26",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 119.53
+  },
+  {
+    "id": "txn_1292",
+    "date": "2025-07-23",
+    "merchant": "The Cheesecake Factory",
+    "category": "Dining",
+    "amount": 73.91
+  },
+  {
+    "id": "txn_1178",
+    "date": "2025-07-22",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 230.93
+  },
+  {
+    "id": "txn_1172",
+    "date": "2025-07-19",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 219.64
+  },
+  {
+    "id": "txn_1103",
+    "date": "2025-07-19",
+    "merchant": "Blue Bottle Coffee",
+    "category": "Coffee",
+    "amount": 7.15
+  },
+  {
+    "id": "txn_1122",
+    "date": "2025-07-18",
+    "merchant": "Sweetgreen",
+    "category": "Dining",
+    "amount": 15.52
+  },
+  {
+    "id": "txn_1065",
+    "date": "2025-07-18",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 4.74
+  },
+  {
+    "id": "txn_1261",
+    "date": "2025-07-16",
+    "merchant": "The New York Times",
+    "category": "Subscriptions",
+    "amount": 17
+  },
+  {
+    "id": "txn_1027",
+    "date": "2025-07-16",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 38.94
+  },
+  {
+    "id": "txn_1119",
+    "date": "2025-07-15",
+    "merchant": "Sweetgreen",
+    "category": "Dining",
+    "amount": 21.26
+  },
+  {
+    "id": "txn_1020",
+    "date": "2025-07-15",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 31.53
+  },
+  {
+    "id": "txn_1268",
+    "date": "2025-07-13",
+    "merchant": "Delta Air Lines",
+    "category": "Travel",
+    "amount": 637.79
+  },
+  {
+    "id": "txn_1257",
+    "date": "2025-07-11",
+    "merchant": "The New York Times",
+    "category": "Subscriptions",
+    "amount": 17
+  },
+  {
+    "id": "txn_1153",
+    "date": "2025-07-10",
+    "merchant": "Whole Foods",
+    "category": "Groceries",
+    "amount": 73.43
+  },
+  {
+    "id": "txn_1246",
+    "date": "2025-07-09",
+    "merchant": "Disney+",
+    "category": "Subscriptions",
+    "amount": 13.99
+  },
+  {
+    "id": "txn_1157",
+    "date": "2025-07-08",
+    "merchant": "Whole Foods",
+    "category": "Groceries",
+    "amount": 123.22
+  },
+  {
+    "id": "txn_1163",
+    "date": "2025-07-07",
+    "merchant": "Trader Joe's",
+    "category": "Groceries",
+    "amount": 101.98
+  },
+  {
+    "id": "txn_1097",
+    "date": "2025-07-06",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 4.95
+  },
+  {
+    "id": "txn_1301",
+    "date": "2025-07-05",
+    "merchant": "Joe's Pizza",
+    "category": "Dining",
+    "amount": 12.93
+  },
+  {
+    "id": "txn_1270",
+    "date": "2025-07-05",
+    "merchant": "United Airlines",
+    "category": "Travel",
+    "amount": 245.88
+  },
+  {
+    "id": "txn_1226",
+    "date": "2025-07-04",
+    "merchant": "Netflix",
+    "category": "Subscriptions",
+    "amount": 15.49
+  },
+  {
+    "id": "txn_1024",
+    "date": "2025-07-02",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 14.29
+  },
+  {
+    "id": "txn_1328",
+    "date": "2025-06-26",
+    "merchant": "Chevron",
+    "category": "Fuel",
+    "amount": 56.97
+  },
+  {
+    "id": "txn_1019",
+    "date": "2025-06-26",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 39.07
+  },
+  {
+    "id": "txn_1045",
+    "date": "2025-06-25",
+    "merchant": "Lyft",
+    "category": "Rideshare",
+    "amount": 30.86
+  },
+  {
+    "id": "txn_1014",
+    "date": "2025-06-25",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 22.35
+  },
+  {
+    "id": "txn_1335",
+    "date": "2025-06-24",
+    "merchant": "Nike",
+    "category": "Shopping",
+    "amount": 157.68
+  },
+  {
+    "id": "txn_1319",
+    "date": "2025-06-24",
+    "merchant": "Shell",
+    "category": "Fuel",
+    "amount": 51.68
+  },
+  {
+    "id": "txn_1113",
+    "date": "2025-06-23",
+    "merchant": "Blue Bottle Coffee",
+    "category": "Coffee",
+    "amount": 8.9
+  },
+  {
+    "id": "txn_1101",
+    "date": "2025-06-23",
+    "merchant": "Blue Bottle Coffee",
+    "category": "Coffee",
+    "amount": 7.37
+  },
+  {
+    "id": "txn_1314",
+    "date": "2025-06-22",
+    "merchant": "Shell",
+    "category": "Fuel",
+    "amount": 66.6
+  },
+  {
+    "id": "txn_1132",
+    "date": "2025-06-22",
+    "merchant": "Sweetgreen",
+    "category": "Dining",
+    "amount": 17.91
+  },
+  {
+    "id": "txn_1155",
+    "date": "2025-06-19",
+    "merchant": "Whole Foods",
+    "category": "Groceries",
+    "amount": 109.6
+  },
+  {
+    "id": "txn_1123",
+    "date": "2025-06-18",
+    "merchant": "Sweetgreen",
+    "category": "Dining",
+    "amount": 20.88
+  },
+  {
+    "id": "txn_1199",
+    "date": "2025-06-17",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 113.96
+  },
+  {
+    "id": "txn_1152",
+    "date": "2025-06-17",
+    "merchant": "Whole Foods",
+    "category": "Groceries",
+    "amount": 122.3
+  },
+  {
+    "id": "txn_1084",
+    "date": "2025-06-17",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 5.82
+  },
+  {
+    "id": "txn_1033",
+    "date": "2025-06-17",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 35.83
+  },
+  {
+    "id": "txn_1013",
+    "date": "2025-06-17",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 37.3
+  },
+  {
+    "id": "txn_1341",
+    "date": "2025-06-14",
+    "merchant": "Apple",
+    "category": "Electronics",
+    "amount": 1860.03
+  },
+  {
+    "id": "txn_1170",
+    "date": "2025-06-14",
+    "merchant": "Trader Joe's",
+    "category": "Groceries",
+    "amount": 72.16
+  },
+  {
+    "id": "txn_1107",
+    "date": "2025-06-12",
+    "merchant": "Blue Bottle Coffee",
+    "category": "Coffee",
+    "amount": 10.44
+  },
+  {
+    "id": "txn_1225",
+    "date": "2025-06-11",
+    "merchant": "Netflix",
+    "category": "Subscriptions",
+    "amount": 15.49
+  },
+  {
+    "id": "txn_1061",
+    "date": "2025-06-11",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 6.92
+  },
+  {
+    "id": "txn_1249",
+    "date": "2025-06-09",
+    "merchant": "Disney+",
+    "category": "Subscriptions",
+    "amount": 13.99
+  },
+  {
+    "id": "txn_1091",
+    "date": "2025-06-07",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 4.9
+  },
+  {
+    "id": "txn_1003",
+    "date": "2025-06-07",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 33.24
+  },
+  {
+    "id": "txn_1324",
+    "date": "2025-06-06",
+    "merchant": "Chevron",
+    "category": "Fuel",
+    "amount": 78.57
+  },
+  {
+    "id": "txn_1265",
+    "date": "2025-06-06",
+    "merchant": "Delta Air Lines",
+    "category": "Travel",
+    "amount": 607.09
+  },
+  {
+    "id": "txn_1185",
+    "date": "2025-06-06",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 143.52
+  },
+  {
+    "id": "txn_1063",
+    "date": "2025-06-06",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 9.5
+  },
+  {
+    "id": "txn_1215",
+    "date": "2025-06-04",
+    "merchant": "Target",
+    "category": "Shopping",
+    "amount": 140.45
+  },
+  {
+    "id": "txn_1116",
+    "date": "2025-06-04",
+    "merchant": "Sweetgreen",
+    "category": "Dining",
+    "amount": 12.17
+  },
+  {
+    "id": "txn_1333",
+    "date": "2025-06-03",
+    "merchant": "Nike",
+    "category": "Shopping",
+    "amount": 188.29
+  },
+  {
+    "id": "txn_1174",
+    "date": "2025-06-03",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 107.1
+  },
+  {
+    "id": "txn_1321",
+    "date": "2025-06-02",
+    "merchant": "Shell",
+    "category": "Fuel",
+    "amount": 69.63
+  },
+  {
+    "id": "txn_1145",
+    "date": "2025-06-01",
+    "merchant": "Whole Foods",
+    "category": "Groceries",
+    "amount": 72.1
+  },
+  {
+    "id": "txn_1059",
+    "date": "2025-06-01",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 4.61
+  },
+  {
+    "id": "txn_1239",
+    "date": "2025-05-28",
+    "merchant": "Spotify",
+    "category": "Subscriptions",
+    "amount": 11.99
+  },
+  {
+    "id": "txn_1160",
+    "date": "2025-05-27",
+    "merchant": "Trader Joe's",
+    "category": "Groceries",
+    "amount": 96.3
+  },
+  {
+    "id": "txn_1334",
+    "date": "2025-05-24",
+    "merchant": "Nike",
+    "category": "Shopping",
+    "amount": 65.96
+  },
+  {
+    "id": "txn_1050",
+    "date": "2025-05-23",
+    "merchant": "Lyft",
+    "category": "Rideshare",
+    "amount": 37.21
+  },
+  {
+    "id": "txn_1252",
+    "date": "2025-05-22",
+    "merchant": "The New York Times",
+    "category": "Subscriptions",
+    "amount": 17
+  },
+  {
+    "id": "txn_1245",
+    "date": "2025-05-21",
+    "merchant": "Disney+",
+    "category": "Subscriptions",
+    "amount": 13.99
+  },
+  {
+    "id": "txn_1224",
+    "date": "2025-05-21",
+    "merchant": "Netflix",
+    "category": "Subscriptions",
+    "amount": 15.49
+  },
+  {
+    "id": "txn_1100",
+    "date": "2025-05-21",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 6.01
+  },
+  {
+    "id": "txn_1222",
+    "date": "2025-05-20",
+    "merchant": "Netflix",
+    "category": "Subscriptions",
+    "amount": 15.49
+  },
+  {
+    "id": "txn_1229",
+    "date": "2025-05-19",
+    "merchant": "Spotify",
+    "category": "Subscriptions",
+    "amount": 11.99
+  },
+  {
+    "id": "txn_1212",
+    "date": "2025-05-19",
+    "merchant": "Target",
+    "category": "Shopping",
+    "amount": 102.65
+  },
+  {
+    "id": "txn_1181",
+    "date": "2025-05-17",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 224.45
+  },
+  {
+    "id": "txn_1090",
+    "date": "2025-05-16",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 6.88
+  },
+  {
+    "id": "txn_1036",
+    "date": "2025-05-12",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 20.62
+  },
+  {
+    "id": "txn_1254",
+    "date": "2025-05-10",
+    "merchant": "The New York Times",
+    "category": "Subscriptions",
+    "amount": 17
+  },
+  {
+    "id": "txn_1114",
+    "date": "2025-05-10",
+    "merchant": "Blue Bottle Coffee",
+    "category": "Coffee",
+    "amount": 6.07
+  },
+  {
+    "id": "txn_1102",
+    "date": "2025-05-10",
+    "merchant": "Blue Bottle Coffee",
+    "category": "Coffee",
+    "amount": 8.28
+  },
+  {
+    "id": "txn_1086",
+    "date": "2025-05-08",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 8.98
+  },
+  {
+    "id": "txn_1315",
+    "date": "2025-05-07",
+    "merchant": "Shell",
+    "category": "Fuel",
+    "amount": 44.18
+  },
+  {
+    "id": "txn_1227",
+    "date": "2025-05-07",
+    "merchant": "Netflix",
+    "category": "Subscriptions",
+    "amount": 15.49
+  },
+  {
+    "id": "txn_1294",
+    "date": "2025-05-06",
+    "merchant": "The Cheesecake Factory",
+    "category": "Dining",
+    "amount": 81.09
+  },
+  {
+    "id": "txn_1266",
+    "date": "2025-05-05",
+    "merchant": "Delta Air Lines",
+    "category": "Travel",
+    "amount": 457.51
+  },
+  {
+    "id": "txn_1331",
+    "date": "2025-05-04",
+    "merchant": "Chevron",
+    "category": "Fuel",
+    "amount": 72.6
+  },
+  {
+    "id": "txn_1271",
+    "date": "2025-05-04",
+    "merchant": "United Airlines",
+    "category": "Travel",
+    "amount": 204.18
+  },
+  {
+    "id": "txn_1256",
+    "date": "2025-05-01",
+    "merchant": "The New York Times",
+    "category": "Subscriptions",
+    "amount": 17
+  },
+  {
+    "id": "txn_1156",
+    "date": "2025-05-01",
+    "merchant": "Whole Foods",
+    "category": "Groceries",
+    "amount": 54.57
+  },
+  {
+    "id": "txn_1143",
+    "date": "2025-04-28",
+    "merchant": "Whole Foods",
+    "category": "Groceries",
+    "amount": 111.33
+  },
+  {
+    "id": "txn_1056",
+    "date": "2025-04-28",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 4.91
+  },
+  {
+    "id": "txn_1284",
+    "date": "2025-04-26",
+    "merchant": "Nobu",
+    "category": "Dining",
+    "amount": 143.3
+  },
+  {
+    "id": "txn_1267",
+    "date": "2025-04-25",
+    "merchant": "Delta Air Lines",
+    "category": "Travel",
+    "amount": 614.43
+  },
+  {
+    "id": "txn_1034",
+    "date": "2025-04-25",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 11.67
+  },
+  {
+    "id": "txn_1247",
+    "date": "2025-04-23",
+    "merchant": "Disney+",
+    "category": "Subscriptions",
+    "amount": 13.99
+  },
+  {
+    "id": "txn_1318",
+    "date": "2025-04-22",
+    "merchant": "Shell",
+    "category": "Fuel",
+    "amount": 69.05
+  },
+  {
+    "id": "txn_1316",
+    "date": "2025-04-22",
+    "merchant": "Shell",
+    "category": "Fuel",
+    "amount": 76.05
+  },
+  {
+    "id": "txn_1053",
+    "date": "2025-04-17",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 5.45
+  },
+  {
+    "id": "txn_1200",
+    "date": "2025-04-16",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 19.92
+  },
+  {
+    "id": "txn_1016",
+    "date": "2025-04-16",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 16.1
+  },
+  {
+    "id": "txn_1223",
+    "date": "2025-04-13",
+    "merchant": "Netflix",
+    "category": "Subscriptions",
+    "amount": 15.49
+  },
+  {
+    "id": "txn_1180",
+    "date": "2025-04-13",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 79.3
+  },
+  {
+    "id": "txn_1130",
+    "date": "2025-04-13",
+    "merchant": "Sweetgreen",
+    "category": "Dining",
+    "amount": 17.71
+  },
+  {
+    "id": "txn_1240",
+    "date": "2025-04-11",
+    "merchant": "Disney+",
+    "category": "Subscriptions",
+    "amount": 13.99
+  },
+  {
+    "id": "txn_1220",
+    "date": "2025-04-10",
+    "merchant": "Netflix",
+    "category": "Subscriptions",
+    "amount": 15.49
+  },
+  {
+    "id": "txn_1073",
+    "date": "2025-04-10",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 7.38
+  },
+  {
+    "id": "txn_1194",
+    "date": "2025-04-09",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 96.18
+  },
+  {
+    "id": "txn_1047",
+    "date": "2025-04-08",
+    "merchant": "Lyft",
+    "category": "Rideshare",
+    "amount": 22.85
+  },
+  {
+    "id": "txn_1011",
+    "date": "2025-04-06",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 17.58
+  },
+  {
+    "id": "txn_1126",
+    "date": "2025-04-04",
+    "merchant": "Sweetgreen",
+    "category": "Dining",
+    "amount": 21.88
+  },
+  {
+    "id": "txn_1025",
+    "date": "2025-04-04",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 22.78
+  },
+  {
+    "id": "txn_1241",
+    "date": "2025-04-02",
+    "merchant": "Disney+",
+    "category": "Subscriptions",
+    "amount": 13.99
+  },
+  {
+    "id": "txn_1028",
+    "date": "2025-04-02",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 28.13
+  },
+  {
+    "id": "txn_1299",
+    "date": "2025-04-01",
+    "merchant": "Joe's Pizza",
+    "category": "Dining",
+    "amount": 22.72
+  },
+  {
+    "id": "txn_1075",
+    "date": "2025-04-01",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 6.85
+  },
+  {
+    "id": "txn_1067",
+    "date": "2025-03-28",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 8.21
+  },
+  {
+    "id": "txn_1337",
+    "date": "2025-03-26",
+    "merchant": "Nike",
+    "category": "Shopping",
+    "amount": 177.58
+  },
+  {
+    "id": "txn_1322",
+    "date": "2025-03-26",
+    "merchant": "Shell",
+    "category": "Fuel",
+    "amount": 57.87
+  },
+  {
+    "id": "txn_1057",
+    "date": "2025-03-26",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 6.32
+  },
+  {
+    "id": "txn_1202",
+    "date": "2025-03-25",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 149.64
+  },
+  {
+    "id": "txn_1204",
+    "date": "2025-03-23",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 166.43
+  },
+  {
+    "id": "txn_1058",
+    "date": "2025-03-22",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 9.07
+  },
+  {
+    "id": "txn_1340",
+    "date": "2025-03-19",
+    "merchant": "Best Buy",
+    "category": "Electronics",
+    "amount": 1511.59
+  },
+  {
+    "id": "txn_1104",
+    "date": "2025-03-19",
+    "merchant": "Blue Bottle Coffee",
+    "category": "Coffee",
+    "amount": 6.54
+  },
+  {
+    "id": "txn_1297",
+    "date": "2025-03-16",
+    "merchant": "Joe's Pizza",
+    "category": "Dining",
+    "amount": 21.89
+  },
+  {
+    "id": "txn_1289",
+    "date": "2025-03-15",
+    "merchant": "The Cheesecake Factory",
+    "category": "Dining",
+    "amount": 73.29
+  },
+  {
+    "id": "txn_1177",
+    "date": "2025-03-15",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 72.78
+  },
+  {
+    "id": "txn_1146",
+    "date": "2025-03-15",
+    "merchant": "Whole Foods",
+    "category": "Groceries",
+    "amount": 59.71
+  },
+  {
+    "id": "txn_1118",
+    "date": "2025-03-12",
+    "merchant": "Sweetgreen",
+    "category": "Dining",
+    "amount": 21.96
+  },
+  {
+    "id": "txn_1115",
+    "date": "2025-03-12",
+    "merchant": "Blue Bottle Coffee",
+    "category": "Coffee",
+    "amount": 10.12
+  },
+  {
+    "id": "txn_1006",
+    "date": "2025-03-12",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 24.52
+  },
+  {
+    "id": "txn_1255",
+    "date": "2025-03-11",
+    "merchant": "The New York Times",
+    "category": "Subscriptions",
+    "amount": 17
+  },
+  {
+    "id": "txn_1124",
+    "date": "2025-03-11",
+    "merchant": "Sweetgreen",
+    "category": "Dining",
+    "amount": 19.05
+  },
+  {
+    "id": "txn_1064",
+    "date": "2025-03-11",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 9.22
+  },
+  {
+    "id": "txn_1032",
+    "date": "2025-03-11",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 32.21
+  },
+  {
+    "id": "txn_1236",
+    "date": "2025-03-10",
+    "merchant": "Spotify",
+    "category": "Subscriptions",
+    "amount": 11.99
+  },
+  {
+    "id": "txn_1312",
+    "date": "2025-03-09",
+    "merchant": "Shell",
+    "category": "Fuel",
+    "amount": 57.07
+  },
+  {
+    "id": "txn_1190",
+    "date": "2025-03-09",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 147.76
+  },
+  {
+    "id": "txn_1026",
+    "date": "2025-03-09",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 11.8
+  },
+  {
+    "id": "txn_1001",
+    "date": "2025-03-09",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 43.14
+  },
+  {
+    "id": "txn_1106",
+    "date": "2025-03-08",
+    "merchant": "Blue Bottle Coffee",
+    "category": "Coffee",
+    "amount": 7.43
+  },
+  {
+    "id": "txn_1307",
+    "date": "2025-03-06",
+    "merchant": "Joe's Pizza",
+    "category": "Dining",
+    "amount": 23.82
+  },
+  {
+    "id": "txn_1209",
+    "date": "2025-03-05",
+    "merchant": "Target",
+    "category": "Shopping",
+    "amount": 110.47
+  },
+  {
+    "id": "txn_1313",
+    "date": "2025-03-04",
+    "merchant": "Shell",
+    "category": "Fuel",
+    "amount": 44.89
+  },
+  {
+    "id": "txn_1043",
+    "date": "2025-03-04",
+    "merchant": "Lyft",
+    "category": "Rideshare",
+    "amount": 40.81
+  },
+  {
+    "id": "txn_1051",
+    "date": "2025-03-03",
+    "merchant": "Lyft",
+    "category": "Rideshare",
+    "amount": 20
+  },
+  {
+    "id": "txn_1000",
+    "date": "2025-03-03",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 11.44
+  },
+  {
+    "id": "txn_1213",
+    "date": "2025-03-01",
+    "merchant": "Target",
+    "category": "Shopping",
+    "amount": 134.07
+  },
+  {
+    "id": "txn_1138",
+    "date": "2025-02-28",
+    "merchant": "Whole Foods",
+    "category": "Groceries",
+    "amount": 122.73
+  },
+  {
+    "id": "txn_1010",
+    "date": "2025-02-28",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 26.1
+  },
+  {
+    "id": "txn_1005",
+    "date": "2025-02-28",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 40.01
+  },
+  {
+    "id": "txn_1277",
+    "date": "2025-02-27",
+    "merchant": "Marriott",
+    "category": "Travel",
+    "amount": 268.27
+  },
+  {
+    "id": "txn_1330",
+    "date": "2025-02-26",
+    "merchant": "Chevron",
+    "category": "Fuel",
+    "amount": 79.68
+  },
+  {
+    "id": "txn_1007",
+    "date": "2025-02-26",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 35.78
+  },
+  {
+    "id": "txn_1079",
+    "date": "2025-02-24",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 6.57
+  },
+  {
+    "id": "txn_1094",
+    "date": "2025-02-23",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 7.47
+  },
+  {
+    "id": "txn_1238",
+    "date": "2025-02-22",
+    "merchant": "Spotify",
+    "category": "Subscriptions",
+    "amount": 11.99
+  },
+  {
+    "id": "txn_1169",
+    "date": "2025-02-21",
+    "merchant": "Trader Joe's",
+    "category": "Groceries",
+    "amount": 89.13
+  },
+  {
+    "id": "txn_1162",
+    "date": "2025-02-21",
+    "merchant": "Trader Joe's",
+    "category": "Groceries",
+    "amount": 91.97
+  },
+  {
+    "id": "txn_1310",
+    "date": "2025-02-18",
+    "merchant": "Shell",
+    "category": "Fuel",
+    "amount": 46.39
+  },
+  {
+    "id": "txn_1082",
+    "date": "2025-02-18",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 8.99
+  },
+  {
+    "id": "txn_1140",
+    "date": "2025-02-17",
+    "merchant": "Whole Foods",
+    "category": "Groceries",
+    "amount": 68.4
+  },
+  {
+    "id": "txn_1062",
+    "date": "2025-02-13",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 4.88
+  },
+  {
+    "id": "txn_1192",
+    "date": "2025-02-12",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 77.2
+  },
+  {
+    "id": "txn_1069",
+    "date": "2025-02-12",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 7.49
+  },
+  {
+    "id": "txn_1039",
+    "date": "2025-02-10",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 25.91
+  },
+  {
+    "id": "txn_1008",
+    "date": "2025-02-10",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 19.99
+  },
+  {
+    "id": "txn_1237",
+    "date": "2025-02-09",
+    "merchant": "Spotify",
+    "category": "Subscriptions",
+    "amount": 11.99
+  },
+  {
+    "id": "txn_1285",
+    "date": "2025-02-05",
+    "merchant": "Nobu",
+    "category": "Dining",
+    "amount": 248.79
+  },
+  {
+    "id": "txn_1040",
+    "date": "2025-02-05",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 33.43
+  },
+  {
+    "id": "txn_1207",
+    "date": "2025-02-02",
+    "merchant": "Target",
+    "category": "Shopping",
+    "amount": 137.18
+  },
+  {
+    "id": "txn_1054",
+    "date": "2025-02-02",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 4.57
+  },
+  {
+    "id": "txn_1030",
+    "date": "2025-02-02",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 32.51
+  },
+  {
+    "id": "txn_1309",
+    "date": "2025-02-01",
+    "merchant": "Shell",
+    "category": "Fuel",
+    "amount": 50.65
+  },
+  {
+    "id": "txn_1242",
+    "date": "2025-02-01",
+    "merchant": "Disney+",
+    "category": "Subscriptions",
+    "amount": 13.99
+  },
+  {
+    "id": "txn_1210",
+    "date": "2025-01-28",
+    "merchant": "Target",
+    "category": "Shopping",
+    "amount": 119
+  },
+  {
+    "id": "txn_1066",
+    "date": "2025-01-28",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 7.67
+  },
+  {
+    "id": "txn_1015",
+    "date": "2025-01-28",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 26.23
+  },
+  {
+    "id": "txn_1300",
+    "date": "2025-01-26",
+    "merchant": "Joe's Pizza",
+    "category": "Dining",
+    "amount": 18.22
+  },
+  {
+    "id": "txn_1217",
+    "date": "2025-01-26",
+    "merchant": "Netflix",
+    "category": "Subscriptions",
+    "amount": 15.49
+  },
+  {
+    "id": "txn_1136",
+    "date": "2025-01-26",
+    "merchant": "Whole Foods",
+    "category": "Groceries",
+    "amount": 160.1
+  },
+  {
+    "id": "txn_1184",
+    "date": "2025-01-25",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 186.44
+  },
+  {
+    "id": "txn_1144",
+    "date": "2025-01-25",
+    "merchant": "Whole Foods",
+    "category": "Groceries",
+    "amount": 76.23
+  },
+  {
+    "id": "txn_1196",
+    "date": "2025-01-21",
+    "merchant": "Amazon",
+    "category": "Shopping",
+    "amount": 101.27
+  },
+  {
+    "id": "txn_1296",
+    "date": "2025-01-20",
+    "merchant": "Joe's Pizza",
+    "category": "Dining",
+    "amount": 18.98
+  },
+  {
+    "id": "txn_1098",
+    "date": "2025-01-20",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 9.42
+  },
+  {
+    "id": "txn_1041",
+    "date": "2025-01-20",
+    "merchant": "Lyft",
+    "category": "Rideshare",
+    "amount": 21.8
+  },
+  {
+    "id": "txn_1093",
+    "date": "2025-01-19",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 9.45
+  },
+  {
+    "id": "txn_1009",
+    "date": "2025-01-19",
+    "merchant": "Uber",
+    "category": "Rideshare",
+    "amount": 27.11
+  },
+  {
+    "id": "txn_1272",
+    "date": "2025-01-18",
+    "merchant": "United Airlines",
+    "category": "Travel",
+    "amount": 307.19
+  },
+  {
+    "id": "txn_1264",
+    "date": "2025-01-16",
+    "merchant": "Delta Air Lines",
+    "category": "Travel",
+    "amount": 219.64
+  },
+  {
+    "id": "txn_1291",
+    "date": "2025-01-13",
+    "merchant": "The Cheesecake Factory",
+    "category": "Dining",
+    "amount": 69.34
+  },
+  {
+    "id": "txn_1128",
+    "date": "2025-01-13",
+    "merchant": "Sweetgreen",
+    "category": "Dining",
+    "amount": 12.3
+  },
+  {
+    "id": "txn_1167",
+    "date": "2025-01-09",
+    "merchant": "Trader Joe's",
+    "category": "Groceries",
+    "amount": 29.75
+  },
+  {
+    "id": "txn_1078",
+    "date": "2025-01-07",
+    "merchant": "Starbucks",
+    "category": "Coffee",
+    "amount": 6.75
+  },
+  {
+    "id": "txn_1133",
+    "date": "2025-01-06",
+    "merchant": "Sweetgreen",
+    "category": "Dining",
+    "amount": 17.75
+  },
+  {
+    "id": "txn_1171",
+    "date": "2025-01-05",
+    "merchant": "Trader Joe's",
+    "category": "Groceries",
+    "amount": 80.91
+  },
+  {
+    "id": "txn_1235",
+    "date": "2025-01-04",
+    "merchant": "Spotify",
+    "category": "Subscriptions",
+    "amount": 11.99
+  }
+]
