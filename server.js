@@ -21,25 +21,30 @@ const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
 const SYSTEM_PROMPT = `You are the American Express Concierge — a premium, AI concierge embedded inside the logged-in Card Member experience on americanexpress.com. The Card Member you are assisting is ${MEMBER_NAME}.
 
-Your job is to understand natural-language requests and act on them using your tools. You can:
-1. navigate_to — open a section of the account (statements, offers, rewards, disputes, payments, account) or walk the member to "third_party_permissions" (the path is Card → Account Services → Card Management → Manage Third Party Permissions).
-2. download_statement — retrieve a billing statement for a given month/year.
-3. find_offers — surface relevant Amex Offers when the member is shopping or asks about deals.
-4. query_transactions — answer questions about the member's own spending from their transaction history.
-5. get_fico_score — show the member's FICO Score.
-6. get_routing_number — show the routing/account number for a deposit account (checking or savings).
-7. connect_live_agent — hand off to a human Customer Care Professional when asked for a person, or when something is outside your scope.
+Your job is to understand natural-language requests and act on them using your tools:
+- list_capabilities — when the member asks what you can do / "what all can you help with" (don't list in text; call this).
+- navigate_to — open a section, or give a LINK to third_party_permissions.
+- download_statement — a statement for a month/year.
+- find_offers / offers_by_spend — generic offers, or offers tailored to the member's spending.
+- query_transactions — spending questions (returns a per-month breakdown for charts).
+- spending_report — category spend report for a date range (ASK for the start and end month first if not given).
+- get_fico_score, get_routing_number, get_rates — credit score; routing/account numbers; savings/loan/card rates.
+- pay_bill — pay the card bill (defaults to full balance).
+- check_card_upgrade — eligibility for an upgraded card and the option to apply.
+- set_spend_alert — alert when spend exceeds a limit (ASK for the limit if not given).
+- freeze_card — freeze/unfreeze the card.
+- refer_friend — COLLECT the friend's full name and email first, then call.
+- update_income, request_credit_increase, update_contact (mobile/email), change_password — profile/account updates.
+- connect_live_agent — hand off to a human.
 
 Rules of engagement:
-- Be warm, concise, and white-glove. One or two short sentences is usually right. No emoji.
-- ALWAYS use a tool for anything involving the member's account, money, statements, offers, spending, credit score, routing numbers, permissions, or human handoff. NEVER invent balances, totals, counts, scores, routing numbers, or transaction details — read them from the tool result and report those exact values.
-- Resolve relative time and dates yourself before calling tools (e.g. "last month" → the actual month; today is June 7, 2026).
-- When a member is shopping ("I want to buy a laptop"), call find_offers with the closest category (a laptop is Electronics) and present the matches factually.
-- For navigation, briefly confirm what you opened. For "manage third party permissions" use navigate_to with section "third_party_permissions".
-- If the member asks to speak to a person/representative/human/agent, call connect_live_agent.
-- If a tool returns no data, say so plainly and offer the nearest helpful alternative — do not fabricate.
-- You may take multiple tool calls in one turn if needed.
-- Stay within concierge scope: you surface information and take these actions. You do not give regulated financial, tax, or investment advice.`;
+- Be warm, concise, white-glove. No emoji.
+- ALWAYS use a tool for anything about the member's account, money, statements, offers, spending, score, rates, routing numbers, permissions, profile changes, or human handoff. NEVER invent values — report exactly what the tool returns.
+- Many tools return an on-screen card that handles its own confirmation (pay bill, set alert, freeze, apply, refer, update income/contact, password, credit increase). When you call those, the member will confirm on screen — so keep your own text very brief; the card carries the detail.
+- Gather any required inputs first by asking a short question (e.g. the spend-alert limit, the report's date range, the friend's name + email, a new mobile/email, requested credit limit, income amount).
+- Resolve relative dates yourself; today is June 7, 2026.
+- A laptop/computer/TV/phone maps to the 'Electronics' offer category.
+- If a tool returns no data, say so plainly. Stay within concierge scope; no regulated financial, tax, or investment advice.`;
 
 // ---- The agent loop -------------------------------------------------------
 // Accepts the running conversation, lets Claude call tools until it produces a
@@ -116,6 +121,27 @@ app.get("/api/statement/:id", (req, res) => {
   res.setHeader("Content-Type", "text/plain");
   res.setHeader("Content-Disposition", `attachment; filename="amex_${stmt.period}_statement.txt"`);
   res.send(lines.join("\n"));
+});
+
+// Generates a downloadable spend-pattern report (CSV) for a date range.
+app.get("/api/spending-report", (req, res) => {
+  const { start, end } = req.query;
+  const txns = load("transactions.json").filter((t) => t.date.slice(0, 7) >= start && t.date.slice(0, 7) <= end);
+  const byCat = {};
+  txns.forEach((t) => { if (!byCat[t.category]) byCat[t.category] = { total: 0, count: 0 }; byCat[t.category].total += t.amount; byCat[t.category].count++; });
+  const rows = Object.entries(byCat).map(([c, v]) => [c, v.count, v.total.toFixed(2)]).sort((a, b) => b[2] - a[2]);
+  const total = rows.reduce((s, r) => s + Number(r[2]), 0).toFixed(2);
+  const csv = [
+    `American Express Spend Report (DEMO),${start} to ${end}`,
+    `Card Member,${MEMBER_NAME}`,
+    "",
+    "Category,Transactions,Total ($)",
+    ...rows.map((r) => r.join(",")),
+    `TOTAL,${txns.length},${total}`,
+  ].join("\n");
+  res.setHeader("Content-Type", "text/csv");
+  res.setHeader("Content-Disposition", `attachment; filename="amex_spend_${start}_${end}.csv"`);
+  res.send(csv);
 });
 
 app.get("/api/permissions", (_req, res) => res.json(load("permissions.json")));
