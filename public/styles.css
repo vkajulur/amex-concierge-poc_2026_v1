@@ -280,3 +280,18 @@ body { font-family: var(--font); background: var(--bg); color: var(--ink); min-h
 .perm-lead { color: var(--gray); font-size: 14px; margin: 8px 0 20px; max-width: 620px; }
 .perm-list .perm:first-child { padding-top: 0; }
 .perm-list .perm:last-child { padding-bottom: 0; }
+
+/* ===== savings recommendations ===== */
+.recs { margin-top: 6px; }
+.rec { display: flex; justify-content: space-between; gap: 10px; padding: 12px 0; border-bottom: 1px solid var(--line); }
+.rec:last-child { border-bottom: none; }
+.rec-main { flex: 1; }
+.rec-title-s { font-weight: 700; font-size: 13px; }
+.rec-detail { color: var(--gray); font-size: 12px; margin-top: 2px; }
+.rec-amt { color: var(--green); font-weight: 700; font-size: 16px; white-space: nowrap; }
+.rec-add, .rec-view { margin-top: 8px; border-radius: 7px; padding: 6px 12px; font-size: 12px; font-weight: 700; cursor: pointer; font-family: var(--font); }
+.rec-add { background: #fff; color: var(--blue); border: 1px solid var(--blue); }
+.rec-add:hover { background: var(--tint); }
+.rec-add.added { background: var(--green); color: #fff; border-color: var(--green); cursor: default; }
+.rec-view { background: var(--blue-dark); color: #fff; border: none; }
+.rec-view:hover { background: var(--blue); }
