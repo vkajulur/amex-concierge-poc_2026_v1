@@ -54,19 +54,17 @@
         <button class="btn-primary" data-section="payments">Make a Payment</button>
       </article>
 
-      <!-- FICO + rewards -->
+      <!-- Membership Rewards + at a glance -->
       <article class="panel">
-        <div class="panel-head"><h2>FICO® Score</h2><span class="panel-sub">Experian · updated Jun 1</span></div>
-        <div class="fico-wrap">
-          <div class="fico-gauge" id="ficoGauge"></div>
-          <div class="fico-meta">
-            <div class="fico-band" id="ficoBand">Very Good</div>
-            <div class="fico-delta" id="ficoDelta">▲ 9 pts since last month</div>
-          </div>
+        <div class="panel-head"><h2>Membership Rewards®</h2></div>
+        <div class="rewards-hero">
+          <div class="rewards-pts">148,920</div>
+          <div class="rewards-cap">points available</div>
         </div>
-        <div class="rewards-line">
-          <span>Membership Rewards® points</span>
-          <strong>148,920</strong>
+        <div class="glance">
+          <div class="glance-row"><span>Next payment due</span><span>$71.54 · Jun 22</span></div>
+          <div class="glance-row"><span>Credit limit</span><span>$15,000</span></div>
+          <div class="glance-row"><span>Available credit</span><span>$12,615.49</span></div>
         </div>
       </article>
     </section>
@@ -98,21 +96,12 @@
         <button class="tile" data-section="rewards"><span class="tile-ico">★</span>Membership Rewards</button>
         <button class="tile" data-section="disputes"><span class="tile-ico">⚑</span>Dispute a Charge</button>
         <button class="tile" data-section="payments"><span class="tile-ico">$</span>Make a Payment</button>
-        <button class="tile" data-section="third_party_permissions"><span class="tile-ico">⚙</span>Account Services</button>
+        <a class="tile" href="/permissions.html"><span class="tile-ico">⚙</span>Account Services</a>
       </div>
     </section>
 
     <p class="disclaimer">Demonstration prototype. Not affiliated with American Express. All data shown is fictional.</p>
   </main>
-
-  <!-- Third-party permissions simulation overlay -->
-  <div class="tpp-overlay" id="tppOverlay" hidden>
-    <div class="tpp-modal">
-      <div class="tpp-breadcrumb" id="tppBreadcrumb"></div>
-      <div class="tpp-stage" id="tppStage"></div>
-      <button class="tpp-close" id="tppClose">Close</button>
-    </div>
-  </div>
 
   <!-- Concierge chat icon (FAB) -->
   <button class="concierge-fab" id="conciergeFab" aria-label="Open Concierge chat">
