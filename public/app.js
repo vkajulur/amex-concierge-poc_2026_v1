@@ -110,6 +110,7 @@
     wrap.appendChild(card); body.appendChild(wrap); scroll(); return card;
   }
   const money = (n) => "$" + Number(n).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  const moneyWhole = (n) => "$" + Number(n).toLocaleString("en-US", { maximumFractionDigits: 0 });
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   function scroll() { body.scrollTop = body.scrollHeight; }
 
@@ -164,7 +165,7 @@
 
     if (a.type === "link") {
       addCard(`<div class="rc-title">Navigate</div>
-        <a class="link-card" href="${esc(a.url)}">
+        <a class="link-card" href="${esc(a.url)}" target="_blank" rel="noopener noreferrer">
           <span><strong>${esc(a.label)}</strong>${a.sub ? `<div class="link-sub">${esc(a.sub)}</div>` : ""}</span>
           <span class="link-arrow">→</span>
         </a>`);
@@ -253,15 +254,27 @@
 
     if (a.type === "card_upgrade") {
       if (!a.eligible) { addCard(`<div class="rc-title">Card upgrade</div><div>You're not pre-qualified for an upgrade right now. We'll let you know when an offer is available.</div>`); return; }
+      const pf = a.prefill || {};
+      const prefillHtml = `<div class="prefill">
+        <div class="prefill-head">✓ We'll pre-fill your application from your profile</div>
+        <div class="prefill-grid">
+          <span>Name</span><span>${esc(pf.name || "—")}</span>
+          <span>Email</span><span>${esc(pf.email || "—")}</span>
+          <span>Mobile</span><span>${esc(pf.mobile || "—")}</span>
+          <span>Annual income</span><span>${esc(pf.income || "—")}</span>
+        </div>
+        <div class="prefill-note">No re-typing — just review and submit.</div>
+      </div>`;
       const card = addCard(`<div class="rc-title">You're pre-qualified ✦</div>
         <div class="upgrade-name">${esc(a.offeredCard)}</div>
         <div class="upgrade-meta">Annual fee ${esc(a.annualFee)}</div>
         <div class="upgrade-bonus">${esc(a.welcomeBonus)}</div>
         <div class="upgrade-benefits">${esc(a.keyBenefits)}</div>
-        <button class="offer-add">Apply now</button>`);
+        ${prefillHtml}
+        <button class="offer-add">Review &amp; apply</button>`);
       const apply = card.querySelector(".offer-add");
       apply.addEventListener("click", () => {
-        confirmAction(apply, `Submit your application for the ${esc(a.offeredCard)}?`, () => { apply.textContent = "✓ Application submitted"; apply.disabled = true; }, { confirmLabel: "Apply" });
+        confirmAction(apply, `Submit your pre-filled application for the ${esc(a.offeredCard)}?`, () => { apply.textContent = "✓ Application submitted (pre-filled from your profile)"; apply.disabled = true; }, { confirmLabel: "Apply" });
       });
       return;
     }
@@ -276,6 +289,55 @@
           card.innerHTML = `<div class="rc-title">Done</div><div class="ca-success">✓ ${esc(a.successText)}</div>`;
           if (a.effect) applyEffect(a.effect);
         }, { confirmLabel: a.confirmLabel || "Confirm", danger: a.danger });
+      });
+      return;
+    }
+
+    if (a.type === "verify_update") {
+      const card = addCard(`<div class="rc-title">Verify to update your ${esc(a.label)}</div>
+        <div class="ca-line" style="font-weight:400">We sent a 6-digit code to <strong>${esc(a.sentTo)}</strong>. Enter it to update your ${esc(a.label)} to <strong>${esc(a.newValue)}</strong>.</div>
+        <div class="verify-row">
+          <input class="verify-input" inputmode="numeric" maxlength="6" placeholder="Enter code" />
+          <button class="verify-btn">Verify &amp; update</button>
+        </div>
+        <div class="verify-hint">Demo code: ${esc(a.demoCode)}</div>
+        <div class="verify-err" hidden>That code isn't right — please try again.</div>`);
+      const inp = card.querySelector(".verify-input");
+      const btn = card.querySelector(".verify-btn");
+      const err = card.querySelector(".verify-err");
+      const submit = () => {
+        if (inp.value.trim() === String(a.demoCode)) {
+          card.innerHTML = `<div class="rc-title">Done</div><div class="ca-success">✓ Your ${esc(a.label)} has been updated to ${esc(a.newValue)}.</div>`;
+          scroll();
+        } else { err.hidden = false; inp.focus(); }
+      };
+      btn.addEventListener("click", submit);
+      inp.addEventListener("keydown", (e) => { if (e.key === "Enter") submit(); });
+      return;
+    }
+
+    if (a.type === "savings_recs") {
+      const rows = a.recs.map((r, i) => {
+        const action = r.kind === "offer"
+          ? `<button class="rec-add" data-i="${i}">+ Add to Card</button>`
+          : `<button class="rec-view">View card upgrade</button>`;
+        return `<div class="rec">
+          <div class="rec-main"><div class="rec-title-s">${esc(r.title)}</div><div class="rec-detail">${esc(r.detail)}</div>${action}</div>
+          <div class="rec-amt">+${moneyWhole(r.amount)}</div>
+        </div>`;
+      }).join("");
+      const card = addCard(`<div class="rc-title">Your savings opportunities</div>
+        <div class="insight-figure"><span class="insight-num">${moneyWhole(a.total)}</span>
+          <span class="insight-sub">in potential savings &amp; rewards<br>based on your spend this year</span></div>
+        <div class="recs">${rows}</div>`);
+      card.querySelectorAll(".rec-add").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const r = a.recs[Number(btn.dataset.i)];
+          confirmAction(btn, `Add the ${esc(r.offer.merchant)} offer to your Card?`, () => { btn.textContent = "✓ Added"; btn.classList.add("added"); btn.disabled = true; });
+        });
+      });
+      card.querySelectorAll(".rec-view").forEach((btn) => {
+        btn.addEventListener("click", () => send("Am I eligible for an upgraded card?"));
       });
       return;
     }
