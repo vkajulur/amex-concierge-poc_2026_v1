@@ -217,3 +217,66 @@ body { font-family: var(--font); background: var(--bg); color: var(--ink); min-h
 .confirm-inline .btn-confirm.danger { background: var(--red); color: #fff; }
 .confirm-inline .btn-cancel { background: var(--line); color: var(--gray-d); }
 .perm { flex-wrap: wrap; row-gap: 8px; }
+
+/* ===== new dashboard panel: rewards + glance ===== */
+.rewards-hero { background: linear-gradient(120deg, var(--blue-dark), var(--blue)); color: #fff; border-radius: 10px; padding: 18px 20px; }
+.rewards-pts { font-size: 30px; font-weight: 700; }
+.rewards-cap { font-size: 12px; color: #cfe0f7; margin-top: 2px; }
+.glance { margin-top: 14px; }
+.glance-row { display: flex; justify-content: space-between; padding: 9px 0; font-size: 13.5px; border-bottom: 1px solid var(--line); color: var(--gray-d); }
+.glance-row:last-child { border-bottom: none; }
+.glance-row span:last-child { font-weight: 700; color: var(--ink); }
+.frozen-badge { position: absolute; inset: 0; z-index: 2; display: grid; place-items: center; background: rgba(0,23,90,.55); color: #fff; font-weight: 800; letter-spacing: 2px; font-size: 18px; border-radius: 12px; }
+
+/* ===== chat: link card ===== */
+.link-card { display: flex; align-items: center; justify-content: space-between; gap: 12px; text-decoration: none; color: var(--blue-dark); background: var(--tint); border: 1px solid #cfe0f7; border-radius: 10px; padding: 12px 14px; }
+.link-card:hover { background: #e2eefb; }
+.link-sub { color: var(--gray); font-size: 11.5px; margin-top: 3px; font-weight: 400; }
+.link-arrow { color: var(--blue); font-size: 18px; font-weight: 700; }
+
+/* ===== chat: monthly bar chart ===== */
+.bar-chart { display: flex; align-items: flex-end; gap: 6px; height: 120px; margin: 12px 0 4px; padding-top: 6px; }
+.bar-col { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; gap: 3px; }
+.bar { width: 70%; max-width: 26px; background: linear-gradient(180deg, var(--blue), var(--blue-dark)); border-radius: 4px 4px 0 0; }
+.bar-val { font-size: 10px; color: var(--gray-d); font-weight: 700; }
+.bar-lbl { font-size: 9px; color: var(--gray-l); text-transform: capitalize; }
+
+/* ===== chat: category bars (spend report) ===== */
+.catbars { margin-top: 10px; }
+.catbar-row { margin-bottom: 9px; }
+.catbar-top { display: flex; justify-content: space-between; font-size: 12px; margin-bottom: 4px; }
+.catbar-top span:last-child { font-weight: 700; }
+.catbar-track { height: 8px; background: var(--tint); border-radius: 5px; overflow: hidden; }
+.catbar-fill { height: 100%; background: linear-gradient(90deg, var(--blue), var(--blue-dark)); border-radius: 5px; }
+
+/* ===== chat: rates ===== */
+.rate-row { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--line); }
+.rate-row:last-child { border-bottom: none; }
+.rate-label { font-weight: 700; font-size: 13px; }
+.rate-note { color: var(--gray); font-size: 11px; margin-top: 2px; }
+.rate-val { font-weight: 700; color: var(--blue-dark); font-size: 15px; }
+
+/* ===== chat: card upgrade ===== */
+.upgrade-name { font-weight: 700; font-size: 15px; color: var(--blue-dark); }
+.upgrade-meta { color: var(--gray); font-size: 12px; margin: 3px 0 8px; }
+.upgrade-bonus { background: var(--tint); border-radius: 7px; padding: 9px 11px; font-size: 12.5px; color: var(--blue-dark); font-weight: 600; }
+.upgrade-benefits { color: var(--gray-d); font-size: 12px; margin: 8px 0 2px; }
+
+/* ===== chat: confirm-action card ===== */
+.ca-line { font-size: 13px; color: var(--gray-d); padding: 3px 0; }
+.ca-line:first-of-type { font-weight: 700; color: var(--ink); }
+.ca-btn { margin-top: 11px; width: 100%; background: var(--blue); color: #fff; border: none; border-radius: 8px; padding: 10px; font-size: 13px; font-weight: 700; cursor: pointer; font-family: var(--font); }
+.ca-btn:hover { background: var(--blue-mid); }
+.ca-btn.danger { background: var(--red); }
+.ca-success { color: var(--green); font-weight: 600; font-size: 13.5px; }
+
+/* ===== permissions page ===== */
+.perm-page { max-width: 760px; }
+.crumbs { font-size: 12.5px; color: var(--gray); margin-bottom: 18px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.crumbs a { color: var(--blue); text-decoration: none; }
+.crumbs .sep { color: var(--gray-l); }
+.crumbs .here { color: var(--blue-dark); font-weight: 700; }
+.perm-title { font-size: 26px; color: var(--blue-dark); }
+.perm-lead { color: var(--gray); font-size: 14px; margin: 8px 0 20px; max-width: 620px; }
+.perm-list .perm:first-child { padding-top: 0; }
+.perm-list .perm:last-child { padding-bottom: 0; }
