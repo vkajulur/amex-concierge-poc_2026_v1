@@ -7,6 +7,18 @@
     "updated": "June 1, 2026",
     "change": 9
   },
+  "account": {
+    "currentBalance": 2384.51,
+    "minimumDue": 71.54,
+    "dueDate": "June 22, 2026",
+    "creditLimit": 15000,
+    "availableCredit": 12615.49,
+    "income": 95000,
+    "currentCard": "American Express EveryDay\u00ae Card",
+    "mobile": "(***) ***-4471",
+    "email": "j****@email.com",
+    "frozen": false
+  },
   "deposit": {
     "checking": {
       "name": "American Express Rewards Checking",
@@ -17,11 +29,23 @@
     },
     "savings": {
       "name": "American Express High Yield Savings",
-      "routing": "124085066",
+      "routing": "124071889",
       "accountLast4": "9930",
       "bank": "American Express National Bank",
       "image": "/img/savings.png"
     }
+  },
+  "rates": {
+    "savingsAPY": "3.80% APY",
+    "personalLoanAPR": "8.99%\u201319.99% APR",
+    "cardAPR": "19.24%\u201329.99% variable APR"
+  },
+  "upgrade": {
+    "eligible": true,
+    "offeredCard": "The Platinum Card\u00ae from American Express",
+    "annualFee": "$695",
+    "welcomeBonus": "80,000 Membership Rewards\u00ae points after $8,000 spend in 6 months",
+    "keyBenefits": "$200 airline fee credit, $200 hotel credit, Centurion Lounge access, 5x on flights"
   },
   "liveAgent": {
     "agentName": "Maria R.",
