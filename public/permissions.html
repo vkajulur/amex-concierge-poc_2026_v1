@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manage Third Party Permissions — American Express</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <span class="brand-logo">American Express</span>
+        <span class="brand-poc">POC</span>
+      </div>
+      <nav class="topnav"><a href="/">Home</a><a class="active">Account Services</a></nav>
+      <div class="member"><span class="member-greet">John</span><span class="member-avatar">J</span></div>
+    </div>
+  </header>
+
+  <main class="page perm-page">
+    <nav class="crumbs">
+      <a href="/">Home</a><span class="sep">›</span>
+      <span>Card</span><span class="sep">›</span>
+      <span>Account Services</span><span class="sep">›</span>
+      <span>Card Management</span><span class="sep">›</span>
+      <span class="here">Manage Third Party Permissions</span>
+    </nav>
+
+    <h1 class="perm-title">Manage Third Party Permissions</h1>
+    <p class="perm-lead">Review and manage the third-party apps and services that can access your American Express account data. You can disconnect an app at any time.</p>
+
+    <section class="panel perm-list" id="permList">
+      <div style="text-align:center;padding:30px"><span class="spin"></span></div>
+    </section>
+
+    <p class="disclaimer">Demonstration prototype. Not affiliated with American Express. All data shown is fictional.</p>
+  </main>
+
+  <script>
+    const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+    function confirmInline(triggerBtn, message, onConfirm, opts = {}) {
+      triggerBtn.style.display = "none";
+      const box = document.createElement("span");
+      box.className = "confirm-inline";
+      box.innerHTML = `<span class="confirm-msg">${message}</span>` +
+        `<button class="btn-confirm ${opts.danger ? "danger" : ""}">${esc(opts.confirmLabel || "Confirm")}</button>` +
+        `<button class="btn-cancel">Cancel</button>`;
+      triggerBtn.insertAdjacentElement("afterend", box);
+      box.querySelector(".btn-confirm").addEventListener("click", () => { box.remove(); triggerBtn.style.display = ""; onConfirm(); });
+      box.querySelector(".btn-cancel").addEventListener("click", () => { box.remove(); triggerBtn.style.display = ""; });
+    }
+    (async () => {
+      let conns = [];
+      try { conns = await (await fetch("/api/permissions")).json(); } catch (_) {}
+      const el = document.getElementById("permList");
+      el.innerHTML = conns.map((c) => {
+        const on = c.status === "Connected";
+        return `<div class="perm">
+          <div>
+            <div class="perm-name">${esc(c.app)}</div>
+            <div class="perm-purpose">${esc(c.purpose)}</div>
+            <div class="perm-access">${esc(c.access)}${c.since ? " · since " + esc(c.since) : ""}</div>
+          </div>
+          <button class="perm-toggle ${on ? "on" : "off"}" data-app="${esc(c.app)}">${on ? "Connected" : "Connect"}</button>
+        </div>`;
+      }).join("");
+      el.querySelectorAll(".perm-toggle").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const on = btn.classList.contains("on");
+          const app = esc(btn.dataset.app);
+          if (on) confirmInline(btn, `Disconnect ${app}? It will lose access to your account data.`,
+            () => { btn.classList.remove("on"); btn.classList.add("off"); btn.textContent = "Connect"; }, { confirmLabel: "Disconnect", danger: true });
+          else confirmInline(btn, `Allow ${app} to access your account data?`,
+            () => { btn.classList.remove("off"); btn.classList.add("on"); btn.textContent = "Connected"; }, { confirmLabel: "Allow" });
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
