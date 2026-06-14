@@ -1,12 +1,112 @@
 [
-  { "id": "off_bestbuy",  "merchant": "Best Buy",        "category": "Electronics", "title": "Best Buy",        "offer": "Spend $750+, get $75 back", "detail": "Statement credit on a single in-store or online purchase. Enrollment required.", "expires": "2026-07-31" },
-  { "id": "off_dell",     "merchant": "Dell",            "category": "Electronics", "title": "Dell",            "offer": "Spend $1,000+, get $150 back", "detail": "Valid on Dell laptops and desktops at dell.com. Enrollment required.", "expires": "2026-08-15" },
-  { "id": "off_apple",    "merchant": "Apple",           "category": "Electronics", "title": "Apple",           "offer": "Spend $999+, get 5,000 Membership Rewards points", "detail": "On Mac or iPad purchases. Enrollment required.", "expires": "2026-07-20" },
-  { "id": "off_bh",       "merchant": "B&H Photo",       "category": "Electronics", "title": "B&H Photo Video", "offer": "Spend $500+, get $50 back", "detail": "Laptops, cameras, and accessories. Enrollment required.", "expires": "2026-09-01" },
-  { "id": "off_lenovo",   "merchant": "Lenovo",          "category": "Electronics", "title": "Lenovo",          "offer": "10% back, up to $120", "detail": "ThinkPad and Yoga laptops at lenovo.com. Enrollment required.", "expires": "2026-08-31" },
-  { "id": "off_delta",    "merchant": "Delta Air Lines", "category": "Travel",      "title": "Delta Air Lines", "offer": "Spend $500+, get $100 back", "detail": "On Delta flights booked with your Card. Enrollment required.", "expires": "2026-07-15" },
-  { "id": "off_marriott", "merchant": "Marriott",        "category": "Travel",      "title": "Marriott Bonvoy", "offer": "Spend $400+, get $80 back", "detail": "At participating properties. Enrollment required.", "expires": "2026-08-10" },
-  { "id": "off_nike",     "merchant": "Nike",            "category": "Shopping",    "title": "Nike",            "offer": "Spend $150+, get $30 back", "detail": "Online and in-store. Enrollment required.", "expires": "2026-07-28" },
-  { "id": "off_wholefds", "merchant": "Whole Foods",     "category": "Groceries",   "title": "Whole Foods Market", "offer": "Spend $75+, get $15 back", "detail": "In-store purchases. Enrollment required.", "expires": "2026-07-31" },
-  { "id": "off_sweetgrn", "merchant": "Sweetgreen",      "category": "Dining",      "title": "Sweetgreen",      "offer": "Spend $40+, get $10 back", "detail": "App and in-store orders. Enrollment required.", "expires": "2026-08-05" }
+  {
+    "id": "off_bestbuy",
+    "merchant": "Best Buy",
+    "category": "Electronics",
+    "title": "Best Buy",
+    "offer": "Spend $750+, get $75 back",
+    "detail": "Statement credit on a single in-store or online purchase. Enrollment required.",
+    "expires": "2026-07-31",
+    "valueUSD": 75,
+    "minSpend": 750
+  },
+  {
+    "id": "off_dell",
+    "merchant": "Dell",
+    "category": "Electronics",
+    "title": "Dell",
+    "offer": "Spend $1,000+, get $150 back",
+    "detail": "Valid on Dell laptops and desktops at dell.com. Enrollment required.",
+    "expires": "2026-08-15",
+    "valueUSD": 150,
+    "minSpend": 1000
+  },
+  {
+    "id": "off_apple",
+    "merchant": "Apple",
+    "category": "Electronics",
+    "title": "Apple",
+    "offer": "Spend $999+, get 5,000 Membership Rewards points",
+    "detail": "On Mac or iPad purchases. Enrollment required.",
+    "expires": "2026-07-20",
+    "valueUSD": 50,
+    "minSpend": 999
+  },
+  {
+    "id": "off_bh",
+    "merchant": "B&H Photo",
+    "category": "Electronics",
+    "title": "B&H Photo Video",
+    "offer": "Spend $500+, get $50 back",
+    "detail": "Laptops, cameras, and accessories. Enrollment required.",
+    "expires": "2026-09-01",
+    "valueUSD": 50,
+    "minSpend": 500
+  },
+  {
+    "id": "off_lenovo",
+    "merchant": "Lenovo",
+    "category": "Electronics",
+    "title": "Lenovo",
+    "offer": "10% back, up to $120",
+    "detail": "ThinkPad and Yoga laptops at lenovo.com. Enrollment required.",
+    "expires": "2026-08-31",
+    "valueUSD": 120,
+    "minSpend": 0
+  },
+  {
+    "id": "off_delta",
+    "merchant": "Delta Air Lines",
+    "category": "Travel",
+    "title": "Delta Air Lines",
+    "offer": "Spend $500+, get $100 back",
+    "detail": "On Delta flights booked with your Card. Enrollment required.",
+    "expires": "2026-07-15",
+    "valueUSD": 100,
+    "minSpend": 500
+  },
+  {
+    "id": "off_marriott",
+    "merchant": "Marriott",
+    "category": "Travel",
+    "title": "Marriott Bonvoy",
+    "offer": "Spend $400+, get $80 back",
+    "detail": "At participating properties. Enrollment required.",
+    "expires": "2026-08-10",
+    "valueUSD": 80,
+    "minSpend": 400
+  },
+  {
+    "id": "off_nike",
+    "merchant": "Nike",
+    "category": "Shopping",
+    "title": "Nike",
+    "offer": "Spend $150+, get $30 back",
+    "detail": "Online and in-store. Enrollment required.",
+    "expires": "2026-07-28",
+    "valueUSD": 30,
+    "minSpend": 150
+  },
+  {
+    "id": "off_wholefds",
+    "merchant": "Whole Foods",
+    "category": "Groceries",
+    "title": "Whole Foods Market",
+    "offer": "Spend $75+, get $15 back",
+    "detail": "In-store purchases. Enrollment required.",
+    "expires": "2026-07-31",
+    "valueUSD": 15,
+    "minSpend": 75
+  },
+  {
+    "id": "off_sweetgrn",
+    "merchant": "Sweetgreen",
+    "category": "Dining",
+    "title": "Sweetgreen",
+    "offer": "Spend $40+, get $10 back",
+    "detail": "App and in-store orders. Enrollment required.",
+    "expires": "2026-08-05",
+    "valueUSD": 10,
+    "minSpend": 40
+  }
 ]
